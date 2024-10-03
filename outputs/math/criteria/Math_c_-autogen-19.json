@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution to the problem",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "conciseness": {
+    "description": "The conciseness of the solution and explanation provided by the system",
+    "accepted_values": ["poor", "below_average", "average", "above_average", "excellent"]
+  },
+  "comprehensibility": {
+    "description": "The clarity and comprehensibility of the solution and explanation given by the system",
+    "accepted_values": ["difficult_to_understand", "somewhat_difficult", "understandable", "clear", "very_clear"]
+  },
+  "speed": {
+    "description": "The time taken by the system to generate a solution",
+    "accepted_values": ["slow", "moderate", "fast"]
+  },
+  "appropriateness": {
+    "description": "The level of appropriateness of the solution to the given problem, considering factors such as problem level and type",
+    "accepted_values": ["inappropriate", "somewhat_appropriate", "appropriate", "very_appropriate"]
+  }
+}

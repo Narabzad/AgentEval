@@ -1,0 +1,22 @@
+{
+    "simplification": {
+        "description": "The degree to which the solution simplifies the problem while maintaining accuracy",
+        "accepted_values": ["not at all", "partially", "mostly", "completely"]
+    },
+    "rationalization": {
+        "description": "The extent to which the denominator is rationalized in the solution",
+        "accepted_values": ["not at all", "partially", "mostly", "completely"]
+    },
+    "accuracy": {
+        "description": "The correctness of the final answer in the solution",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "step_explanation": {
+        "description": "The degree to which the solution provides clear and coherent step-by-step explanations",
+        "accepted_values": ["incomplete or unclear", "somewhat clear", "clear and coherent", "very clear and detailed"]
+    },
+    "notation": {
+        "description": "The appropriateness of the mathematical notation used in the solution",
+        "accepted_values": ["inappropriate", "somewhat appropriate", "appropriate", "very appropriate"]
+    }
+}

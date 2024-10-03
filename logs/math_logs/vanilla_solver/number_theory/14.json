@@ -1,0 +1,13 @@
+{
+  "problem": "What is the sum of the smallest and second-smallest positive integers $a$ satisfying the congruence $$27a\\equiv 17 \\pmod{40}~?$$",
+  "level": "Level 5",
+  "type": "Number Theory",
+  "solution": "Note that $27$ and $40$ are relatively prime, so $27$ has an inverse $\\pmod{40}$. Conveniently, the inverse of $27\\pmod{40}$ is easily found to be $3$, as we have $27\\cdot 3 = 81\\equiv 1\\pmod{40}$.\n\nTo solve the congruence $27a\\equiv 17\\pmod{40}$, we multiply both sides by $3$ and simplify: \\begin{align*}\n3\\cdot 27a &\\equiv 3\\cdot 17 \\pmod{40} \\\\\na &\\equiv 51 \\pmod{40} \\\\\na &\\equiv 11 \\pmod{40}\n\\end{align*}Each operation in this sequence is reversible, so the solution set is exactly the set of integers congruent to $11\\pmod{40}$. The smallest and second-smallest positive solutions are $11$ and $51$. Their sum is $\\boxed{62}$.",
+  "correct_ans": "62",
+  "problem_id": "14",
+  "response_with_ans": "We can solve the linear congruence to get the integer \\(a\\).\n\n\\(27a \\equiv 17 \\mod 40\\)\n\nSince 27 is relatively prime to 40 (their greatest common divisor is 1), we can multiply both sides of the congruence by the inverse of 27 (mod 40).\n\nTo find this inverse, we solve the equation \\(27x \\equiv 1 \\mod 40\\). \n\nThe inverse of 27 (mod 40) is 3 because \\(27 \\cdot 3 \\equiv 1 \\mod 40\\).\n\nMultiplying both sides of the original congruence by 3 gives:\n\n\\(81a \\equiv 51 \\mod 40\\)  \n\nSimplifying the left side: \\(41a \\equiv 51 \\mod 40\\)\n\nAnd the right side gives: \\(41a \\equiv 11 \\mod 40\\)\n\nHence, \\(a \\equiv 11 \\mod 40\\), so \\(a\\) is equivalent to 11 under mod 40.\n\nThe smallest possible positive integers that satisfy \\(a \\equiv 11 \\mod 40\\) are 11 and 51 (11 plus the modulus 40).  \n\nThe sum of these two numbers is \\(11 + 51 = 62\\).",
+  "time": 10.28962254524231,
+  "check_result": "the answer extracted from the reply is 62.\n\nthe ground truth answer and the answer extracted from the reply match. hence,\n\nthe answer is correct.",
+  "is_correct": true,
+  "trial": -1
+}

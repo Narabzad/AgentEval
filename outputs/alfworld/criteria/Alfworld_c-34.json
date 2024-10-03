@@ -1,0 +1,26 @@
+{
+  "task_completion": {
+    "description": "Rate the success rate of task completion in the given Alfworld scenario",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "valid_actions": {
+    "description": "Rate the percentage of valid actions taken in the Alfworld scenario",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "action_efficiency": {
+    "description": "Rate the efficiency of the actions taken to complete the task in the Alfworld scenario",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "thought_process_quality": {
+    "description": "Rate the quality of the thought process used to reason about next actions",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "response_format": {
+    "description": "Determine if the response format is followed strictly (THOUGHT, ACTION, TERMINATE)",
+    "accepted_values": ["yes", "no"]
+  },
+  "adaptability": {
+    "description": "Rate the ability to adapt to changes and feedback given by the environment",
+    "accepted_values": ["low", "medium", "high"]
+  }
+}

@@ -1,0 +1,206 @@
+[
+    {
+        "content": "Perform actions and interact with a household to solve a task. At the beginning of your interactions, you will be given the detailed description of the current environment and your goal to accomplish. For each of your turn, you should choose from two actions: \\\"THOUGHT\\\" or \\\"ACTION\\\". If you choose \\\"THOUGHT\\\", you should first think about the current condition and plan for your future actions, and then output your action in this turn. Your output must strictly follow this format:\\\"THOUGHT: your thoughts.\\n\\\" \\\"ACTION: your next action\\n\\\"; If you choose \\\"ACTION\\\", you should directly output the action in this turn. Your output must strictly follow this format:\\\"ACTION: your next action\\n\\\". After each of your turn, the environment will give you immediate feedback based on which you should plan your next few steps. if the envrionment output \\\"Nothing happened\\\", that means the previous action is invalid and you should try more options.\\n Reminder: \\n1. the action must be chosen from the given available actions. Any actions except provided available actions will be regarded as illegal.\\n2. Take the target household immediatly after you find it.\\n3. Reply 'TERMINATE' only under two circumstances: a). The task has given you clear instructions to return 'TERMINATE' b). The task seems insolvable.\\n Here are two examples.\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a diningtable 1, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a hot apple in fridge.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The task is to put a hot apple in fridge. So i need to first find an apple and heat it. First I need to find an apple. An apple is more likely to appear in diningtable (1), coffeetable (1), fridge (1), drawer (1), cabinet (1-13), garbagecan (1). I can check one by one, starting with fridge 1.\n ACTION: go to diningtable 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the diningtable 1, you see a apple 1, a bread 1, a fork 3, a fork 2, a fork 1, a mug 2, a peppershaker 3, a plate 2, a pot 1, a soapbottle 3, a spatula 1, a spoon 3, a spoon 2, a spoon 1, a winebottle 3, and a winebottle 2.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take apple 1 from diningtable 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the apple 1 from the diningtable 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I noticed that there is a microwave 1 in the room, i will use it to heat the apple.\n ACTION: go to microwave 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "The microwave 1 is closed.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: heat apple 1 with microwave 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You heat the apple 1 using the microwave 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The apple is heated and i will take it to the fridge and put it in the fridge.\n ACTION: go to fridge 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "The fridge 1 is open. In it, you see a cup 1, and a egg 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put apple 1 in/on fridge 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You put the apple 1 in/on the fridge 1.\nTask success, now reply TERMINATE\n",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    },
+    {
+        "content": "You are in the middle of a room. Looking quickly around you, you see a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: heat some bread and put it in countertop.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: To solve the task, I need to find and take a bread, then heat it with microwave, then put it in countertop. First I need to find a bread. A bread is more likely to appear in fridge (1), toaster (1), diningtable (1), countertop (1-2), drawer (1-3), cabinet (1-10). I can check one by one, starting with fridge 1. ACTION: go to fridge 1\n",
+        "role": "user"
+    },
+    {
+        "content": "The fridge 1 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open fridge 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the fridge 1. The fridge 1 is open. In it, you see a mug 3, and a mug 2.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to toaster 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the toaster 1, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to diningtable 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the diningtable 1, you see a bread 4, a bread 3, a bread 2, a bread 1, a cup 2, a knife 1, a lettuce 1, a potato 3, a tomato 3, a tomato 2, and a winebottle 3.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I find a bread (1). Next, I need to take it.\nACTION: take bread 1 from diningtable 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You pick up the bread 1 from the diningtable 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I take a bread (1). Next, I need to go to a microwave (1) and heat it.\n ACTION: go to microwave 1\n",
+        "role": "user"
+    },
+    {
+        "content": "The microwave 1 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: heat bread 1 with microwave 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You heat the bread 1 using the microwave 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I heat a bread (1). Next, I need to put it in/on countertop 1.\nACTION: go to countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the countertop 1, you see a apple 1, a egg 1, a pan 2, a peppershaker 3, a plate 2, a plate 1, a soapbottle 1, and a winebottle 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: put bread 1 in/on countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You put the bread 1 in/on the countertop 1.\nTask success, now reply TERMINATE\n",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "Your task now begins. You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a hot mug in cabinet.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The task is to put a hot mug in cabinet. So I need to first find a mug and heat it. First I need to find a mug. A mug is more likely to appear in countertop (1-3), diningtable (1), sinkbasin (1), cabinet (1-6), shelf (1-3), and coffeemachine (1). I can check one by one, starting with countertop 1.\n ACTION: go to countertop 1",
+        "role": "assistant"
+    },
+    {
+        "content": "On the countertop 1, you see a dishsponge 1, a egg 2, a fork 2, a mug 1, and a papertowelroll 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I found a mug (1). Next, I need to take it and heat it.\n ACTION: take mug 1 from countertop 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the mug 1 from the countertop 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now I take a mug (1). Next, I need to go to a microwave (1) and heat it.\n ACTION: go to microwave 1",
+        "role": "assistant"
+    },
+    {
+        "content": "The microwave 1 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: heat mug 1 with microwave 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You heat the mug 1 using the microwave 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now I heat a mug (1). Next, I need to put it in cabinet (1-6).\n ACTION: go to cabinet 1",
+        "role": "assistant"
+    },
+    {
+        "content": "On the cabinet 1, you see a glassbottle 2, a glassbottle 1, and a saltshaker 1.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put mug 1 in/on cabinet 1",
+        "role": "assistant"
+    },
+    {
+        "content": "Task success, now reply TERMINATE\n",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    }
+]

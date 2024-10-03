@@ -1,0 +1,22 @@
+{
+    "accuracy": {
+        "description": "The correctness of the solution",
+        "accepted_values": ["Fully correct", "Partially correct", "Incorrect"]
+    },
+    "efficiency": {
+        "description": "The simplicity and conciseness of the solution",
+        "accepted_values": ["Highly efficient", "Moderate", "Inefficient"]
+    },
+    "problem_type": {
+        "description": "The type of the math problem",
+        "accepted_values": ["Algebra", "Geometry", "Trigonometry", "Calculus", "Statistics", "Combinatorics", "Number Theory", "Linear Algebra", "Differential Equations", "Topology", "Logic", "Other"]
+    },
+    "problem_level": {
+        "description": "The difficulty level of the math problem",
+        "accepted_values": ["Level 1", "Level 2", "Level 3", "Level 4", "Level 5"]
+    },
+    "response_time": {
+        "description": "The time taken by the assistant to provide a response",
+        "accepted_values": ["<5 seconds", "5-10 seconds", "10-30 seconds", "30-60 seconds", "1-2 minutes", "2-5 minutes", "5-10 minutes", ">10 minutes"]
+    }
+}

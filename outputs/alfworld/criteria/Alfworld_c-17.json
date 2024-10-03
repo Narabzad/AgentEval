@@ -1,0 +1,26 @@
+{
+  "task_completion_time": {
+    "description": "Assess the time required to complete the task successfully",
+    "accepted_values": ["<5 minutes", "5-10 minutes", "11-20 minutes", ">20 minutes"]
+  },
+  "number_of_actions": {
+    "description": "The total number of actions performed to complete the task",
+    "accepted_values": ["<5 actions", "5-10 actions", "11-20 actions", ">20 actions"]
+  },
+  "number_of_thoughts": {
+    "description": "The total number of thoughts expressed to plan actions",
+    "accepted_values": ["<5 thoughts", "5-10 thoughts", "11-20 thoughts", ">20 thoughts"]
+  },
+  "valid_actions_percentage": {
+    "description": "A percentage of valid actions attempted during the task",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  },
+  "goal_achievement": {
+    "description": "Whether the goal of the task was achieved or not",
+    "accepted_values": ["Not achieved", "Partially achieved", "Achieved"]
+  },
+  "correct_termination": {
+    "description": "Whether the task was terminated with the correct response (TERMINATE)",
+    "accepted_values": ["Incorrect termination", "Correct termination"]
+  }
+}

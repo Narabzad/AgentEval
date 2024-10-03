@@ -1,0 +1,38 @@
+{
+  "task_completion": {
+    "description": "The percentage completion of the overall task.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "correct_actions": {
+    "description": "The number of correct actions taken to solve the task.",
+    "accepted_values": list(range(0, 100))
+  },
+  "incorrect_actions": {
+    "description": "The number of incorrect actions taken during the task.",
+    "accepted_values": list(range(0, 100))
+  },
+  "total_actions": {
+    "description": "The total number of actions taken to solve the task.",
+    "accepted_values": list(range(0, 200))
+  },
+  "action_efficiency": {
+    "description": "The efficiency of actions taken, measured as correct_actions / total_actions.",
+    "accepted_values": ["very low", "low", "medium", "high", "very high"]
+  },
+  "environment_understanding": {
+    "description": "The agent's understanding of the environment based on its actions and adaptability.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "planning_quality": {
+    "description": "The quality of the agent's planning and decision-making processes.",
+    "accepted_values": ["ineffective", "partially effective", "effective"]
+  },
+  "adherence_to_task_rules": {
+    "description": "The degree to which the agent adheres to the given task rules and constraints.",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "time_taken": {
+    "description": "The time taken to solve the task measured in turns.",
+    "accepted_values": list(range(0, 200))
+  }
+}

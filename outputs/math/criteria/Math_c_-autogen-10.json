@@ -1,0 +1,18 @@
+{
+  "correctness": {
+    "description": "The correctness of the solution",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  },
+  "completeness": {
+    "description": "The completeness of the solution with respect to the given task",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  },
+  "clear_explanation": {
+    "description": "The clarity of the explanation provided for the solution",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  },
+  "conciseness": {
+    "description": "The conciseness of the solution, avoiding unnecessary information and steps",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  }
+}

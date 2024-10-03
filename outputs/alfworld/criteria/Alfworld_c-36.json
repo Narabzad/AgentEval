@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "Whether the given task was completed successfully or not",
+    "accepted_values": ["success", "failure", "insolvable"]
+  },
+  "number_of_turns": {
+    "description": "The number of turns taken to complete the task",
+    "accepted_values": list(range(1, 101))
+  },
+  "number_of_invalid_actions": {
+    "description": "The number of invalid actions performed during the task",
+    "accepted_values": list(range(0, 101))
+  },
+  "number_of_thought_actions": {
+    "description": "The number of 'THOUGHT' actions performed during the task",
+    "accepted_values": list(range(0, 101))
+  },
+  "task_efficiency": {
+    "description": "Evaluation of task completion considering the number of actions",
+    "accepted_values": ["low", "medium", "high", "optimal"]
+  },
+  "environment_understanding": {
+    "description": "Evaluation of the understanding of the environment and its elements",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "strategy_adaptation": {
+    "description": "The ability to adapt to changes in the environment or task",
+    "accepted_values": ["low", "medium", "high"]
+  }
+}

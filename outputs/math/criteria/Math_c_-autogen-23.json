@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "Accuracy of the solution provided for the given math problem",
+    "accepted_values": ["Incorrect", "Partial", "Correct"]
+  },
+  "clarity": {
+    "description": "Clarity of the explanation or solution provided for the given math problem",
+    "accepted_values": ["Unclear", "Somewhat Clear", "Clear"]
+  },
+  "efficiency": {
+    "description": "Efficiency of the solution or code used to solve the given math problem",
+    "accepted_values": ["Inefficient", "Moderately efficient", "Efficient"]
+  },
+  "steps": {
+    "description": "Completeness of steps taken to solve the given math problem",
+    "accepted_values": ["Incomplete", "Mostly Complete", "Complete"]
+  },
+  "response_time": {
+    "description": "Time taken to provide a solution to the given math problem",
+    "accepted_values": ["Slow", "Moderate", "Fast"]
+  }
+}

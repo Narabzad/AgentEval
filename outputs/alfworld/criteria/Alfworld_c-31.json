@@ -1,0 +1,34 @@
+{
+    "comprehension": {
+        "description": "Understanding of the task and environment to come up with appropriate thoughts and actions",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "planning": {
+        "description": "Ability to plan steps to accomplish the given task",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "adaptability": {
+        "description": "Responding to environment feedback and adjusting actions or plans accordingly",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "action_execution": {
+        "description": "Proper execution of actions based on task requirements and environment state",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "efficiency": {
+        "description": "Completing the task in an optimal number of steps",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "format": {
+        "description": "Adherence to the required output format",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "legal_actions": {
+        "description": "Use of legal actions provided by the task and not using any illegal actions",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    },
+    "termination": {
+        "description": "Sending 'TERMINATE' only when instructions are clear or the task is insolvable",
+        "accepted_values": ["Poor", "Average", "Good", "Excellent"]
+    }
+}

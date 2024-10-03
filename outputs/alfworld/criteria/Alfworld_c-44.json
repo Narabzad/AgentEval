@@ -1,0 +1,30 @@
+{
+  "goal_completion": {
+    "description": "Successfully completing the given goal",
+    "accepted_values": ["success", "failure", "partially_completed"]
+  },
+  "interaction_efficiency": {
+    "description": "Efficient interactions with the environment",
+    "accepted_values": ["low", "moderate", "high"]
+  },
+  "choice_of_actions": {
+    "description": "Choice of actions made during the task",
+    "accepted_values": ["mainly_correct", "mixed", "mainly_incorrect"]
+  },
+  "sequence_of_actions": {
+    "description": "Order and coherence of actions taken in the task",
+    "accepted_values": ["logical", "somewhat_logical", "illogical"]
+  },
+  "task_adaptability": {
+    "description": "Adapting to immediate feedback and changing plans",
+    "accepted_values": ["adapted_well", "average_adaptation", "poor_adaptation"]
+  },
+  "rule_compliance": {
+    "description": "Compliance with rules and instructions in the task",
+    "accepted_values": ["highly_compliant", "moderately_compliant", "non-compliant"]
+  },
+  "termination_decision": {
+    "description": "Deciding to terminate the task based on success or insolvability",
+    "accepted_values": ["correct", "premature", "delayed"]
+  }
+}

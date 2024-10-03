@@ -1,0 +1,13 @@
+{
+  "problem": "Line segment $\\overline{AB}$ is extended past $A$ to $P$ such that $AP:PB = 1:4.$  Then\n\\[\\overrightarrow{P} = t \\overrightarrow{A} + u \\overrightarrow{B}\\]for some constants $t$ and $u.$  Enter the ordered pair $(t,u).$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, P;\n\nA = (0,0);\nB = (5,1);\nP = interp(A,B,-1/3);\n\ndraw(B--P);\n\ndot(\"$A$\", A, S);\ndot(\"$B$\", B, S);\ndot(\"$P$\", P, S);\n[/asy]",
+  "level": "Level 5",
+  "type": "Precalculus",
+  "solution": "Since $AP:PB = 1:4,$ we can write\n\\[\\frac{\\overrightarrow{A} - \\overrightarrow{P}}{1} = \\frac{\\overrightarrow{B} - \\overrightarrow{P}}{4}.\\]Isolating $\\overrightarrow{P},$ we find\n\\[\\overrightarrow{P} = \\frac{4}{3} \\overrightarrow{A} - \\frac{1}{3} \\overrightarrow{B}.\\]Thus, $(t,u) = \\boxed{\\left( \\frac{4}{3}, -\\frac{1}{3} \\right)}.$",
+  "correct_ans": "\\left( \\frac{4}{3}, -\\frac{1}{3} \\right)",
+  "problem_id": "5",
+  "response_with_ans": "We have that\n\\[\\overrightarrow{P} = \\overrightarrow{OA} + \\overrightarrow{AP} = \\overrightarrow{OA} - \\frac{1}{4} \\overrightarrow{AB} = \\frac{5}{4} \\overrightarrow{OA} - \\frac{1}{4} \\overrightarrow{OB}.\\]Thus, $(t,u) = \\boxed{\\left( \\frac{5}{4}, -\\frac{1}{4} \\right)}.$",
+  "time": 3.635638475418091,
+  "check_result": "the answer in the reply is: $\\left( \\frac{5}{4}, -\\frac{1}{4} \\right)$\n\nhowever, the ground truth answer is: $\\left( \\frac{4}{3}, -\\frac{1}{3} \\right)$\n\nclearly, the answer in the reply does not match with the ground truth answer. \n\nso, \"the answer is incorrect. correct answer: $\\left( \\frac{4}{3}, -\\frac{1}{3} \\right)$ | answer extracted: $\\left( \\frac{5}{4}, -\\frac{1}{4} \\right)$.\"",
+  "is_correct": false,
+  "trial": -1
+}

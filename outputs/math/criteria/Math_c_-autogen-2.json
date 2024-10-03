@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution",
+    "accepted_values": ["correct", "partially correct", "incorrect"]
+  },
+  "clarity": {
+    "description": "How clear and concise the solution is",
+    "accepted_values": ["very clear", "clear", "somewhat clear", "unclear"]
+  },
+  "steps": {
+    "description": "How well each step is explained",
+    "accepted_values": ["all steps explained", "most steps explained", "some steps explained", "no steps explained"]
+  },
+  "level_of_complexity": {
+    "description": "The level of complexity of the problem",
+    "accepted_values": ["easy", "moderate", "difficult", "very difficult"]
+  },
+  "relevance": {
+    "description": "How relevant the solution is to the given problem",
+    "accepted_values": ["highly relevant", "relevant", "somewhat relevant", "irrelevant"]
+  }
+}

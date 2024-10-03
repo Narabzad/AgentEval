@@ -1,0 +1,22 @@
+{
+  "Accuracy": {
+    "description": "The extent to which the solution is error-free and mathematically correct.",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "Efficiency": {
+    "description": "The simplicity and conciseness of the solution that allows for an easy understanding.",
+    "accepted_values": ["Low", "Moderate", "High"]
+  },
+  "Clarity": {
+    "description": "The clarity of the solution in terms of explanation, logic, and reasoning provided.",
+    "accepted_values": ["Unclear", "Somewhat clear", "Clear"]
+  },
+  "Step-by-step_solution": {
+    "description": "Assessment of the solution's breakdown into distinct, logical steps.",
+    "accepted_values": ["Missing steps", "Incomplete steps", "All steps included"]
+  },
+  "Appropriate_techniques": {
+    "description": "The use of relevant techniques and concepts to address and solve the math problem.",
+    "accepted_values": ["Poor use", "Adequate use", "Excellent use"]
+  }
+}

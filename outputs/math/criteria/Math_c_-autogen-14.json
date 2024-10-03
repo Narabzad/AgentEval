@@ -1,0 +1,18 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution provided for the math problem.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "completeness": {
+    "description": "The degree to which the solution is complete in terms of the steps and explanations.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "clarity": {
+    "description": "How clear and understandable the solution is.",
+    "accepted_values": ["very unclear", "unclear", "neutral", "clear", "very clear"]
+  },
+  "efficiency": {
+    "description": "The efficiency of the solution's approach and methods used.",
+    "accepted_values": ["very inefficient", "inefficient", "neutral", "efficient", "very efficient"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution provided for the math problem",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  },
+  "conciseness": {
+    "description": "The degree to which the solution is concise and to the point",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "clarity": {
+    "description": "How clear and understandable the solution is to a reader",
+    "accepted_values": ["poor", "average", "good", "excellent"]
+  },
+  "step_explanation": {
+    "description": "The level of detail in explaining the steps taken to reach the solution",
+    "accepted_values": ["minimal", "adequate", "detailed"]
+  },
+  "problem_comprehension": {
+    "description": "The extent to which the solution shows understanding of the given problem",
+    "accepted_values": ["low", "medium", "high"]
+  }
+}

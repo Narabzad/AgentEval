@@ -1,0 +1,13 @@
+{
+  "problem": "The line $l$ passes through the midpoint of $(1,2)$ and $(19,4)$.  Also, line $l$ is perpendicular to the line passing through $(0,7)$ and $(4,-3)$. What is the $y$-coordinate of the point on $l$ whose $x$-coordinate is $20$?",
+  "level": "Level 5",
+  "type": "Algebra",
+  "solution": "The midpoint of the points $(1,2)$ and $(19,4)$ is $\\left(\\frac{1+19}{2},\\frac{2+4}{2}\\right)=(10,3)$, so the line $l$ passes through $(10,3)$. The slope of the line through $(0,7)$ and $(4,-3)$ is $\\frac{7-(-3)}{0-(4)}=\\frac{10}{-4}=-\\frac{5}{2}$. The line $l$ is perpendicular to this line, so its slope is the negative reciprocal of $-\\frac{5}{2}$, which is $\\frac{2}{5}$.\n\nWe have the slope of the line and a point on the line, so we can find the equation of line $l$ in point-slope form: $(y-3)=\\frac{2}{5}(x-10)$. Simplifying this gives $y=\\frac{2}{5}(x-10)+3=\\frac{2}{5}x-\\frac{2}{5}(10)+3=\\frac{2}{5}x-4+3=\\frac{2}{5}x-1$. We want the value of $y$ when $x=20$, so we plug in: $y=\\frac{2}{5}(20)-1=2(4)-1=\\boxed{7}$.",
+  "correct_ans": "7",
+  "problem_id": "12",
+  "response_with_ans": "First, let's find the midpoint of the points $(1,2)$ and $(19,4)$, which is also a point on line $l$. \n\nMidpoint formula is $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$, so the midpoint is $\\left(\\frac{1+19}{2}, \\frac{2+4}{2}\\right) = (10,3)$\n\nThe slope of the line passing through $(0,7)$ and $(4,-3)$ can be found using the slope formula:\n\n$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-3 - 7}{4 - 0} = \\frac{-10}{4} = -\\frac{5}{2}$\n\nA line perpendicular to this will have a slope that is the negative reciprocal of this slope. This is calculated as $-\\frac{1}{m}$. In this case, the slope of line $l$, $m_l$, is the negative reciprocal of $-\\frac{5}{2}$, which is $\\frac{2}{5}$.\n\nThe equation for line $l$ in point slope form is $y - y_1 = m_l (x - x_1)$, where $(x_1,y_1)$ is a point on the line. Using $(10,3)$ as the point and $\\frac{2}{5}$ as the slope, the equation for line $l$ is: \n\n$y - 3 = \\frac{2}{5}(x - 10)$\n\nWe want the $y$-coordinate of the point where $x = 20$. Substitute $x = 20$ into this equation:\n\n$y - 3 = \\frac{2}{5} (20 - 10)$\n\n$y - 3 = \\frac{2}{5} \\cdot 10$\n\n$y = 3 + 4 = 7$\n\nHence, the $y$-coordinate we are looking for is $7$.",
+  "time": 13.409718751907349,
+  "check_result": "the answer extracted is 7. \n\nby checking the given answer and the ground truth answer, it is clear that these two values are same. \n\nthe answer is correct.",
+  "is_correct": true,
+  "trial": -1
+}

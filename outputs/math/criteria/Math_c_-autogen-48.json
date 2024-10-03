@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution presented.",
+    "accepted_values": ["correct", "mostly correct", "partially correct", "incorrect","incomplete", "not attempted"]
+  },
+  "clarity": {
+    "description": "The clarity of the provided solution and explanation.",
+    "accepted_values": ["very clear", "clear", "moderately clear", "somewhat clear", "not clear", "confusing"]
+  },
+  "conciseness": {
+    "description": "The conciseness of the provided solution, avoiding unnecessary steps or explanations.",
+    "accepted_values": ["very concise", "concise", "moderately concise", "somewhat concise", "verbose", "extremely verbose"]
+  },
+  "methodology": {
+    "description": "The appropriateness of the methodology used in solving the problem.",
+    "accepted_values": ["very appropriate", "appropriate", "moderately appropriate", "somewhat appropriate", "inappropriate", "very inappropriate"]
+  },
+  "response_time": {
+    "description": "The time in seconds taken to provide the solution.",
+    "accepted_values": ["> 1", "1-5", "6-10", "11-15", "16-20", "21-25", "26-30", "> 30"]
+  }
+}

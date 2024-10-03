@@ -1,0 +1,30 @@
+{
+    "task_completion": {
+        "description": "Whether the task was completed successfully or not.",
+        "accepted_values": ["success", "incomplete", "failed", "unreachable", "not_attempted"]
+    },
+    "number_of_steps": {
+        "description": "The number of steps taken to complete the task.",
+        "accepted_values": list(range(1, 101))
+    },
+    "number_of_thoughts": {
+        "description": "The number of times the THOUGHT prompt was chosen.",
+        "accepted_values": list(range(0, 51))
+    },
+    "number_of_actions": {
+        "description": "The number of times the ACTION prompt was chosen.",
+        "accepted_values": list(range(0, 51))
+    },
+    "legal_actions_percentage": {
+        "description": "The percentage of chosen actions that were legal and valid according to the rules.",
+        "accepted_values": [x * 0.1 for x in range(0, 11)]
+    },
+    "termination_circumstance": {
+        "description": "The reason for terminating the task.",
+        "accepted_values": ["goal_accomplished", "unsolvable_task", "termination_unprompted"]
+    },
+    "valid_termination": {
+        "description": "Whether the TERMINATE command was used under valid circumstances or not.",
+        "accepted_values": ["valid", "invalid"]
+    }
+}

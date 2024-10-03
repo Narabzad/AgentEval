@@ -1,0 +1,26 @@
+{
+    "accuracy": {
+        "description": "The accuracy of the solution provided by the system, comparing its response to the correct answer.",
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    },
+    "completeness": {
+        "description": "The degree to which the response addresses all aspects of the math problem.",
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    },
+    "clarity": {
+        "description": "How clear and easy to understand the solution provided by the system is.",
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    },
+    "conciseness": {
+        "description": "Whether the solution provided by the system is free of unnecessary information and steps.",
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    },
+    "correct_reasoning": {
+        "description": "The extent to which the system's response demonstrates correct mathematical reasoning.",
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    },
+    "time_efficiency": {
+        "description": "The amount of time taken by the system to provide the solution.",
+        "accepted_values": ["< 5 seconds", "5-10 seconds", "10-20 seconds", "20-30 seconds", "> 30 seconds"]
+    }
+}

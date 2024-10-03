@@ -1,0 +1,52 @@
+{
+  "clarity": {
+    "description": "Clarity of the solution provided, whether it is easy to understand and follow",
+    "accepted_values": {
+      "1": "Very confusing and hard to follow",
+      "2": "Somewhat unclear, requires effort to understand",
+      "3": "Moderately clear, could be improved",
+      "4": "Mostly clear, minor improvements needed",
+      "5": "Very clear and easy to understand"
+    }
+  },
+  "accuracy": {
+    "description": "Accuracy of the solution, ensuring that it solves the given problem correctly",
+    "accepted_values": {
+      "1": "Completely incorrect and doesn't solve the problem",
+      "2": "Partially correct but includes significant errors",
+      "3": "Mostly correct with some minor errors",
+      "4": "Almost entirely correct, with very minor errors",
+      "5": "Completely correct and solves the problem"
+    }
+  },
+  "efficiency": {
+    "description": "Efficiency of the solution, in terms of using the least number of steps or using the shortest code",
+    "accepted_values": {
+      "1": "Extremely inefficient and long-winded",
+      "2": "Inefficient with unnecessary steps or code",
+      "3": "Moderately efficient, could be improved",
+      "4": "Mostly efficient with minor improvements possible",
+      "5": "Very efficient and concise"
+    }
+  },
+  "presentation": {
+    "description": "Presentation of the solution, including formatting and proper use of mathematical notation",
+    "accepted_values": {
+      "1": "Very poor presentation, difficult to read",
+      "2": "Somewhat poor presentation, needs improvement",
+      "3": "Moderately well-presented, a few issues",
+      "4": "Mostly well-presented, with minor issues",
+      "5": "Very well-presented, easy to read and understand"
+    }
+  },
+  "explanation": {
+    "description": "Effectiveness of the explanation provided for each step of the solution",
+    "accepted_values": {
+      "1": "No explanation or extremely difficult to understand",
+      "2": "Limited explanation, hard to follow rationale",
+      "3": "Moderate explanation, some parts unclear",
+      "4": "Good explanation, mostly clear and easy to follow",
+      "5": "Excellent explanation, very clear and comprehensive"
+    }
+  }
+}

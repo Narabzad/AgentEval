@@ -1,0 +1,34 @@
+{
+    "comprehension": {
+        "description": "Understanding the goal and environment provided in the task description.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "planning": {
+        "description": "Efficiently planning and prioritizing actions to achieve the given goal.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "actions_sequence": {
+        "description": "The sequence of actions taken is logical and relevant to the specified task.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "adaptability": {
+        "description": "Adapting to the immediate feedback provided by the environment and adjusting actions accordingly.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "output_format": {
+        "description": "Following the prescribed output format for thoughts and actions.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "legal_actions": {
+        "description": "Selecting actions from the given available actions and avoiding illegal actions.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "target_acquisition": {
+        "description": "Acquiring the target household object immediately after finding it.",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    },
+    "termination": {
+        "description": "Opting to TERMINATE only under the defined conditions (task completed or insolvable).",
+        "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+    }
+}

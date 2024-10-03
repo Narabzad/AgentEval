@@ -1,0 +1,13 @@
+{
+  "problem": "An equilateral triangle has a side of length 12 inches. What is the area of the triangle, in square inches? Express your answer in simplest radical form.",
+  "level": "Level 5",
+  "type": "Prealgebra",
+  "solution": "The area of an equilateral triangle with side length $s$ is $s^2\\sqrt{3}/4$. We have $s = 12$, so our area is $12^2\\sqrt{3}/4 = \\boxed{36\\sqrt{3}}$.",
+  "correct_ans": "36\\sqrt{3}",
+  "problem_id": "18",
+  "response_with_ans": "The formula for the area (A) of an equilateral triangle with side length (a) can be given as:\n\nA = (sqrt(3) / 4) * a^2\n\nSubstituting the given value (a = 12 inches) to solve for A, we have:\n\nA = (sqrt(3) / 4) * 12^2\nA = (sqrt(3) / 4) * 144\nA = 36sqrt(3) square inches\n\nSo, the area of the equilateral triangle is 36sqrt(3) square inches, when the side of the triangle is 12 inches.\n",
+  "time": 4.898457050323486,
+  "check_result": "1. the answer in the reply is: \"36sqrt(3) square inches\"\n\n2. the answer in the reply matches the ground truth answer. both of them represent the same value in the same format.\n\n3. \"the answer is correct.\"",
+  "is_correct": true,
+  "trial": -1
+}

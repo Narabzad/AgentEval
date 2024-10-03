@@ -1,0 +1,26 @@
+{
+  "efficiency": {
+    "description": "The number of turns taken to complete the task",
+    "accepted_values": ["low_efficiency", "medium_efficiency", "high_efficiency"]
+  },
+  "correct_actions_taken": {
+    "description": "Number of correct actions taken according to the task",
+    "accepted_values": ["few_correct", "some_correct", "most_correct", "all_correct"]
+  },
+  "task_completion": {
+    "description": "Did the user accomplish the task?",
+    "accepted_values": ["not_completed", "partially_completed", "completed"]
+  },
+  "appropriate_THOUGHT": {
+    "description": "Did the user use THOUGHT appropriately in their responses?",
+    "accepted_values": ["never_appropriate", "rarely_appropriate", "mostly_appropriate", "always_appropriate"]
+  },
+  "command_format": {
+    "description": "Did the user use the correct format for their commands? (ACTION or THOUGHT)",
+    "accepted_values": ["never_correct", "rarely_correct", "mostly_correct", "always_correct"]
+  },
+  "legal_actions": {
+    "description": "Did the user choose actions from the available legal actions?",
+    "accepted_values": ["never_legal", "rarely_legal", "mostly_legal", "always_legal"]
+  }
+}

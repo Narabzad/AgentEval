@@ -1,0 +1,13 @@
+{
+  "problem": "Two weeks ago, Alice came home from vacation and noticed that a bean plant was growing in her garden. Today, the stalk is $452$ centimeters tall, and Alice observed that its height increases by $5\\%$ every day.  How tall was the plant $2$ weeks ago when she first noticed it growing? Express your answer as a decimal to the nearest tenth.",
+  "level": "Level 5",
+  "type": "Algebra",
+  "solution": "One week is equal to $7$ days, and the plant grows by $5\\%$ each day.  We can work backwards to find the previous size of the plant.  We can reverse the compound interest formula to solve this problem, as if the plant loses five percent of its height every day for $14$ days.  So the height of the plant two weeks ago is equal to $$452\\div(1+0.05)^{14}= 452\\div1.98=228.29$$So, the bean plant was $\\boxed{228.3}$ centimeters tall when Alice first found it.",
+  "correct_ans": "228.3",
+  "problem_id": "15",
+  "response_with_ans": "Let's denote by $x$ the height of the plant two weeks ago. Then, as the height increases by $5\\%$ every day, we have that after $14$ days (which is two weeks), the height of the plant will be $x*(1+5\\%)^{14}=x*1.05^{14}$. This height is given to be $452cm$.\n\nSo we have that\n$$x*1.05^{14}=452,$$\nand therefore, the height of the plant was \n$$x=\\frac{452}{1.05^{14}}\\approx 281.3cm$$ two weeks ago. So, rounding to the nearest tenth, the bean stalk was $281.3cm$ tall when Alice first noticed it after coming home from vacation.",
+  "time": 7.9865076541900635,
+  "check_result": "the answer extracted from the reply is 281.3cm.\n\ncomparing this to the ground truth answer, 228.3cm, the answer in the reply is incorrect. \n\n\"the answer is incorrect. correct answer: 228.3 | answer extracted: 281.3.\"",
+  "is_correct": false,
+  "trial": -1
+}

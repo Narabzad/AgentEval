@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The extent to which the solution is correct and complete.",
+    "accepted_values": ["0%-25%", "26%-50%", "51%-75%", "76%-99%", "100%"]
+  },
+  "efficiency": {
+    "description": "How quickly and optimally the task was completed.",
+    "accepted_values": ["very slow", "slow", "average", "fast", "very fast"]
+  },
+  "clarity": {
+    "description": "How clear and concise the solution and any explanations are.",
+    "accepted_values": ["very unclear", "unclear", "average", "clear", "very clear"]
+  },
+  "step_explanation": {
+    "description": "The extent to which each step in the solution is explained.",
+    "accepted_values": ["none", "some steps", "half steps", "most steps", "all steps"]
+  },
+  "error_diagnosis": {
+    "description": "The ability to identify and correct any errors in the solution.",
+    "accepted_values": ["none", "one error", "two errors", "three errors", "all errors"]
+  }
+}

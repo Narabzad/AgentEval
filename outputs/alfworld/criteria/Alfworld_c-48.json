@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "The ability to successfully complete the given task",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "valid_actions": {
+    "description": "Adherence to using the provided available actions",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "thought_quality": {
+    "description": "The quality and thoroughness of the 'THOUGHT' stage when planning actions",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "efficiency": {
+    "description": "Completing the task using the least amount of actions without compromising success",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "communication": {
+    "description": "Clear and correct use of formatting in the 'THOUGHT' and 'ACTION' stages",
+    "accepted_values": ["poor", "average", "excellent"]
+  },
+  "adaptability": {
+    "description": "The ability to adjust the approach based on environmental feedback",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "termination_conditions": {
+    "description": "Understanding and following rules regarding the use of 'TERMINATE'",
+    "accepted_values": ["never", "incorrectly", "correctly"]
+  }
+}

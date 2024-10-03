@@ -1,0 +1,18 @@
+{
+  "accuracy": {
+    "description": "How accurate the solution is to the given problem",
+    "accepted_values": ["not accurate", "partially accurate", "accurate"]
+  },
+  "completeness": {
+    "description": "To what extent the solution covers all aspects of the problem",
+    "accepted_values": ["not complete", "partially complete", "complete"]
+  },
+  "understandability": {
+    "description": "How well the solution is explained and easy to understand",
+    "accepted_values": ["not understandable", "partially understandable", "understandable"]
+  },
+  "conciseness": {
+    "description": "How concise the solution is",
+    "accepted_values": ["not concise", "moderately concise", "concise"]
+  }
+}

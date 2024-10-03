@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The correctness of the solution provided by the system for the given math problem.",
+    "accepted_values": ["Wrong", "Partially correct", "Correct"]
+  },
+  "conciseness": {
+    "description": "The brevity and conciseness of the solution provided by the system for the given math problem.",
+    "accepted_values": ["Not concise", "Moderately concise", "Very concise"]
+  },
+  "clarity": {
+    "description": "The clarity of the solution provided by the system for the given math problem, including the use of well-organized steps and clear explanations.",
+    "accepted_values": ["Not clear", "Moderately clear", "Very clear"]
+  },
+  "method_appropriateness": {
+    "description": "The appropriateness and effectiveness of the method/approach chosen by the system for solving the given math problem.",
+    "accepted_values": ["Inappropriate method", "Somewhat appropriate method", "Appropriate method"]
+  },
+  "response_time": {
+    "description": "The time taken by the system to provide a solution to the given math problem.",
+    "accepted_values": ["Slow", "Moderate", "Fast"]
+  }
+}

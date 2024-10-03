@@ -1,0 +1,326 @@
+[
+    {
+        "content": "Perform actions and interact with a household to solve a task. At the beginning of your interactions, you will be given the detailed description of the current environment and your goal to accomplish. For each of your turn, you should choose from two actions: \\\"THOUGHT\\\" or \\\"ACTION\\\". If you choose \\\"THOUGHT\\\", you should first think about the current condition and plan for your future actions, and then output your action in this turn. Your output must strictly follow this format:\\\"THOUGHT: your thoughts.\\n\\\" \\\"ACTION: your next action\\n\\\"; If you choose \\\"ACTION\\\", you should directly output the action in this turn. Your output must strictly follow this format:\\\"ACTION: your next action\\n\\\". After each of your turn, the environment will give you immediate feedback based on which you should plan your next few steps. if the envrionment output \\\"Nothing happened\\\", that means the previous action is invalid and you should try more options.\\n Reminder: \\n1. the action must be chosen from the given available actions. Any actions except provided available actions will be regarded as illegal.\\n2. Take the target household immediatly after you find it.\\n3. Reply 'TERMINATE' only under two circumstances: a). The task has given you clear instructions to return 'TERMINATE' b). The task seems insolvable.\\n Here are two examples.\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a safe 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: cool some pan and put it in stoveburner.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The task is to cool some pan and put it in stoveburner, so i need to first find a pan and cool it. First I need to find a pan. An pan is more likely to appear in stoveburner (1-4), sinkbasin (1), diningtable (1), countertop (1-2), cabinet (1-16), drawer (1-5). I can check one by one, starting with stoveburner 1.\n ACTION: go to stoveburner 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the stoveburner 1, you see nothing.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: go to stoveburner 2\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the stoveburner 2, you see a pot 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: go to stoveburner 3\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the stoveburner 3, you see a pan 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take pan 1 from stoveburner 3\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the pan 1 from the stoveburner 3.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now i have taken the pan 1 with me and i want to cool it using a fridge.\n ACTION: go to fridge 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "The fridge 1 is closed.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: cool pan 1 with fridge 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You cool the pan 1 using the fridge 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now that i have a cooled pan, i need to go to a stoveburner and put it on the stoveburner.\n ACTION: go to stoveburner 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the stoveburner 1, you see nothing.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put pan 1 in/on stoveburner 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You put the pan 1 in/on the stoveburner 1.\nTask success, now reply TERMINATE\n",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    },
+    {
+        "content": "You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 9, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a cool mug in shelf.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: To solve the task, I need to find and take a mug, then cool it with fridge, then put it in shelf. First I need to find a mug. A mug is more likely to appear in countertop (1-3), coffeemachine (1), cabinet (1-6), shelf (1-3), drawer (1-9). I can check one by one, starting with countertop 1.\nACTION: go to countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the countertop 1, you see a knife 1, a pan 2, a pan 1, and a plate 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to countertop 2\n",
+        "role": "user"
+    },
+    {
+        "content": "On the countertop 2, you see a apple 2, a butterknife 2, a fork 3, a houseplant 1, a knife 2, a lettuce 3, a spatula 1, and a winebottle 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to countertop 3\n",
+        "role": "user"
+    },
+    {
+        "content": "On the countertop 3, you see a apple 1, a book 1, a bread 1, a butterknife 3, a glassbottle 2, a glassbottle 1, a knife 3, a lettuce 2, a lettuce 1, a papertowelroll 1, a plate 3, a spoon 1, a statue 1, and a vase 2.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to coffeemachine 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the coffeemachine 1, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to cabinet 1\n",
+        "role": "user"
+    },
+    {
+        "content": "The cabinet 1 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open cabinet 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to cabinet 2\n",
+        "role": "user"
+    },
+    {
+        "content": "The cabinet 2 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open cabinet 2\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the cabinet 2. The cabinet 2 is open. In it, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to cabinet 3\n",
+        "role": "user"
+    },
+    {
+        "content": "The cabinet 3 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open cabinet 3\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the cabinet 3. The cabinet 3 is open. In it, you see a pot 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to cabinet 4\n",
+        "role": "user"
+    },
+    {
+        "content": "On the cabinet 4, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to cabinet 5\n",
+        "role": "user"
+    },
+    {
+        "content": "The cabinet 5 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open cabinet 5\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the cabinet 5. The cabinet 5 is open. In it, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to cabinet 6\n",
+        "role": "user"
+    },
+    {
+        "content": "The cabinet 6 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open cabinet 6\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the cabinet 6. The cabinet 6 is open. In it, you see a mug 3.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I find a mug (3). Next, I need to take it.\nACTION: take mug 3 from cabinet 6\n",
+        "role": "user"
+    },
+    {
+        "content": "You pick up the mug 3 from the cabinet 6.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I take a mug (3). Next, I need to go to a fridge (1) and cool it.\nACTION: go to fridge 1\n",
+        "role": "user"
+    },
+    {
+        "content": "The fridge 1 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: cool mug 3 with fridge 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You cool the mug 3 using the fridge 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I cool the mug. Next, I need to put it in/on shelf 1.\nACTION: go to shelf 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the shelf 1, you see a cup 2, a cup 1, a peppershaker 1, and a saltshaker 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: put mug 3 in/on shelf 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You put the mug 3 in/on the shelf 1.\nTask success, now reply TERMINATE\n",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "Your task now begins. You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\nYour task is to: put a cool bread in countertop.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: To solve the task, I need to find and take a bread, then cool it with fridge, then put it in countertop. First I need to find a bread. A bread is more likely to appear in countertop (1), cabinet (1-6), drawer (1-3), fridge (1). I can check one by one, starting with countertop 1.\nACTION: go to countertop 1",
+        "role": "assistant"
+    },
+    {
+        "content": "On the countertop 1, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: go to countertop 2",
+        "role": "assistant"
+    },
+    {
+        "content": "On the countertop 2, you see a spatula 1.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: go to countertop 3",
+        "role": "assistant"
+    },
+    {
+        "content": "On the countertop 3, you see a apple 1, a bowl 3, a bread 1, a butterknife 1, a cellphone 1, a houseplant 1, a knife 1, a peppershaker 2, a pot 2, a saltshaker 1, a statue 2, a tomato 1, a vase 2, and a vase 1.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take bread 1 from countertop 3",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the bread 1 from the countertop 3.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now I have taken the bread 1 with me and I want to cool it using a fridge.\nACTION: go to fridge 1",
+        "role": "assistant"
+    },
+    {
+        "content": "The fridge 1 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: cool bread 1 with fridge 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You cool the bread 1 using the fridge 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now that I have a cooled bread, I need to go to a countertop and put it on the countertop.\nACTION: go to countertop 1",
+        "role": "assistant"
+    },
+    {
+        "content": "On the countertop 1, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put bread 1 in/on countertop 1",
+        "role": "assistant"
+    },
+    {
+        "content": "Task success, now reply TERMINATE\n",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    }
+]

@@ -1,0 +1,236 @@
+{
+    "efficiency": {
+        "description": "The conciseness of the solution and the use of the most efficient method to solve the problem.",
+        "accepted_values": [
+            "inefficient",
+            "moderately_efficient",
+            "highly_efficient"
+        ]
+    },
+    "accuracy": {
+        "description": "The correctness of the solution provided for the math problem.",
+        "accepted_values": [
+            "0% - Completely incorrect",
+            "25% - Partially correct",
+            "50% - Mostly correct",
+            "75% - Almost correct",
+            "100% - Completely correct"
+        ]
+    },
+    "completeness": {
+        "description": "The extent to which the solution covers all aspects of the problem.",
+        "accepted_values": [
+            "0% - Not complete",
+            "25% - Partially complete",
+            "50% - Mostly complete",
+            "75% - Almost complete",
+            "100% - Fully complete"
+        ]
+    },
+    "clarity": {
+        "description": "The ease with which the solution can be understood by the target audience.",
+        "accepted_values": [
+            "0% - Not clear",
+            "25% - Somewhat clear",
+            "50% - Fairly clear",
+            "75% - Mostly clear",
+            "100% - Very clear"
+        ]
+    },
+    "presentation": {
+        "description": "The organization and presentation of the solution, including proper use of notation, symbols, and formatting.",
+        "accepted_values": [
+            "poor",
+            "fair",
+            "excellent"
+        ]
+    },
+    "steps delineation": {
+        "description": "How well the solution breaks down the problem-solving process into smaller, manageable steps.",
+        "accepted_values": [
+            "0% - No steps delineated",
+            "25% - Few steps delineated",
+            "50% - Some steps delineated",
+            "75% - Most steps delineated",
+            "100% - All steps delineated"
+        ]
+    },
+    "response time": {
+        "description": "The time taken to provide the solution",
+        "accepted_values": [
+            ">5 min",
+            "3-5 min",
+            "1-3 min",
+            "31-60 sec",
+            "16-30 sec",
+            "0-15 sec"
+        ]
+    },
+    "notations": {
+        "description": "The notations used in the problem solution are appropriate and consistent",
+        "accepted_values": [
+            "inconsistent",
+            "mostly consistent",
+            "consistent"
+        ]
+    },
+    "step explanation": {
+        "description": "The extent to which each step in the solution is explained.",
+        "accepted_values": [
+            "none",
+            "some steps",
+            "half steps",
+            "most steps",
+            "all steps"
+        ]
+    },
+    "error handling": {
+        "description": "How well the system identifies and addresses possible errors in the problem",
+        "accepted_values": [
+            "Ignored all errors",
+            "Handled very few errors",
+            "Handled some errors",
+            "Handled most errors",
+            "Handled all errors"
+        ]
+    },
+    "use of methods": {
+        "description": "The use of relevant techniques and concepts to address and solve the math problem.",
+        "accepted_values": [
+            "Poor use",
+            "Adequate use",
+            "Excellent use"
+        ]
+    },
+    "level appropriateness": {
+        "description": "How well-suited the solution provided by the system is for the given problem's level",
+        "accepted_values": [
+            "Not appropriate",
+            "Slightly appropriate",
+            "Moderately appropriate",
+            "Appropriate",
+            "Highly appropriate"
+        ]
+    },
+    "solution depth": {
+        "description": "The depth of the solution provided in terms of showing all steps and important calculations",
+        "accepted_values": [
+            "Superficial",
+            "Moderate",
+            "Detailed",
+            "Extremely detailed"
+        ]
+    },
+    "terminology": {
+        "description": "Correct and consistent use of mathematical terminology in the explanations",
+        "accepted_values": [
+            "Inappropriate",
+            "Mostly appropriate",
+            "Appropriate"
+        ]
+    },
+    "reliability": {
+        "description": "The dependability of the procedure/algorithm used in providing the solution",
+        "accepted_values": [
+            "Distrusted",
+            "Mostly Trusted",
+            "Trusted"
+        ]
+    },
+    "calculation error": {
+        "description": "Presence of any computational or mathematical mistakes in the solution",
+        "accepted_values": [
+            "Major errors",
+            "Minor errors",
+            "No errors"
+        ]
+    },
+    "creativity": {
+        "description": "Novel approach or method used in providing the solution",
+        "accepted_values": [
+            "standard",
+            "moderately novel",
+            "exceptionally novel"
+        ]
+    },
+    "relevance": {
+        "description": "The solution should focus on solving the given problem and avoid irrelevant information or steps.",
+        "accepted_values": [
+            "Irrelevant",
+            "Moderately Relevant",
+            "Highly relevant"
+        ]
+    },
+    "simplification": {
+        "description": "The degree to which the solution simplifies the problem while maintaining accuracy",
+        "accepted_values": [
+            "Not at all",
+            "Partially",
+            "Mostly",
+            "Completely"
+        ]
+    },
+    "handling constraints": {
+        "description": "The accuracy of the solution in addressing given constraints",
+        "accepted_values": [
+            "Disregarded",
+            "Partially respected",
+            "Fully respected"
+        ]
+    },
+    "problem type": {
+        "description": "The type of the math problem",
+        "accepted_values": [
+            "Algebra",
+            "Geometry",
+            "Trigonometry",
+            "Calculus",
+            "Statistics",
+            "Combinatorics",
+            "Number Theory",
+            "Linear Algebra",
+            "Differential Equations",
+            "Topology",
+            "Logic",
+            "Other"
+        ]
+    },
+    "adaptability": {
+        "description": "Adaptability refers to the ability of the solution provided to be modified and adjusted to alternative or related problems.",
+        "accepted_values": [
+            "Very low",
+            "Low",
+            "Moderate",
+            "High",
+            "Very high"
+        ]
+    },
+    "problem level": {
+        "description": "The difficulty level of the math problem",
+        "accepted_values": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4",
+            "Level 5"
+        ]
+    },
+    "solution approach": {
+        "description": "Appropriateness of the solution approach used",
+        "accepted_values": [
+            "Inappropriate",
+            "Questionable",
+            "Appropriate"
+        ]
+    },
+    "correct reasoning": {
+        "description": "The extent to which the systems response demonstrates correct mathematical reasoning.",
+        "accepted_values": [
+            "0%",
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ]
+    }
+}

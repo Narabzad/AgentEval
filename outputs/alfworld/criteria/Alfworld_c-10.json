@@ -1,0 +1,26 @@
+{
+  "environment_understanding": {
+    "description": "The ability to understand and navigate the given environment.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "planning_and_reasoning": {
+    "description": "The ability to think, plan, and reason about the task.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "action_selection": {
+    "description": "The ability to select appropriate actions based on the available options.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "task_completion_speed": {
+    "description": "The speed at which the task is completed.",
+    "accepted_values": ["very_slow", "slow", "medium", "fast", "very_fast"]
+  },
+  "interaction_responsiveness": {
+    "description": "The responsiveness to environment feedback.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "termination_criteria": {
+    "description": "The ability to determine when to terminate the task appropriately.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  }
+}

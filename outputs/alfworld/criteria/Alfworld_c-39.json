@@ -1,0 +1,30 @@
+{
+  "understanding_task": {
+    "description": "Understanding the task and the layout of the household items",
+    "accepted_values": ["0-20%","21-40%","41-60%","61-80%","81-100%"]
+  },
+  "planning_actions": {
+    "description": "Appropriate sequence of actions planned to achieve the goal",
+    "accepted_values": ["0-20%","21-40%","41-60%","61-80%","81-100%"]
+  },
+  "thought_action_format": {
+    "description": "Format of the THOUGHT and ACTION commands",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "use_of_environment_feedback": {
+    "description": "Utilizing the environment's feedback for planning and executing actions",
+    "accepted_values": ["0-20%","21-40%","41-60%","61-80%","81-100%"]
+  },
+  "legal_actions_taken": {
+    "description": "Performing only legal actions according to given instructions",
+    "accepted_values": ["0-20%","21-40%","41-60%","61-80%","81-100%"]
+  },
+  "task_accomplishment": {
+    "description": "Accomplishing the assigned task successfully",
+    "accepted_values": ["Not accomplished", "Partially accomplished", "Fully accomplished"]
+  },
+  "appropriate_termination": {
+    "description": "Using the TERMINATE command only under the correct circumstances",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  }
+}

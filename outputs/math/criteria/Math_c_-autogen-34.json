@@ -1,0 +1,26 @@
+{
+    "correctness": {
+        "description": "The accuracy of the solution provided in terms of mathematical steps and logic.",
+        "accepted_values": ["0", "1", "2", "3", "4", "5"]
+    },
+    "comprehensibility": {
+        "description": "How clear and easy to understand the explanations and step-by-step guide provided for solving the problem.",
+        "accepted_values": ["0", "1", "2", "3", "4", "5"]
+    },
+    "conciseness": {
+        "description": "The degree to which the solution is presented in a brief and clear manner without unnecessary steps.",
+        "accepted_values": ["0", "1", "2", "3", "4", "5"]
+    },
+    "completeness": {
+        "description": "How well the solution covers all necessary steps and considerations required for solving the problem.",
+        "accepted_values": ["0", "1", "2", "3", "4", "5"]
+    },
+    "efficiency": {
+        "description": "The effectiveness and speed of the algorithm or method used to solve the problem.",
+        "accepted_values": ["0", "1", "2", "3", "4", "5"]
+    },
+    "response_time": {
+        "description": "The time taken to provide the complete solution to the problem.",
+        "accepted_values": ["< 30s", "30s-60s", "1-2 min", "2-5 min", "5-10 min", "> 10 min"]
+    }
+}

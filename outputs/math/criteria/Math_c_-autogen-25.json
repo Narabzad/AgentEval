@@ -1,0 +1,22 @@
+{
+  "Accuracy": {
+    "description": "The extent to which the solution is correct and free from errors.",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-99%", "100%"]
+  },
+  "Completeness": {
+    "description": "The extent to which the solution covers all required steps and considerations.",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-99%", "100%"]
+  },
+  "Clarity": {
+    "description": "The extent to which the solution is well-explained, easy to understand, and well-organized.",
+    "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  },
+  "Efficiency": {
+    "description": "The extent to which the solution uses an optimal approach and minimizes unnecessary calculations.",
+    "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  },
+  "Appropriateness": {
+  "description": "The extent to which the solution is relevant to the given problem and follows the mathematical conventions.",
+  "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  }
+}

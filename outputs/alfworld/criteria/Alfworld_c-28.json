@@ -1,0 +1,26 @@
+{
+  "task_completion": {
+    "description": "Is the task completed as specified in the description?",
+    "accepted_values": ["Not completed", "Partially completed", "Fully completed"]
+  },
+  "action_validity": {
+    "description": "Are the performed actions valid according to the given action space?",
+    "accepted_values": ["All actions valid", "Some actions invalid", "All actions invalid"]
+  },
+  "action_efficiency": {
+    "description": "How efficient are the actions taken in solving the task?",
+    "accepted_values": ["Very efficient", "Moderately efficient", "Inefficient"]
+  },
+  "thought_process": {
+    "description": "Does the thought process for the decisions align with the given task?",
+    "accepted_values": ["Very relevant", "Moderately relevant", "Irrelevant"]
+  },
+  "terminating_condition": {
+    "description": "Does the termination condition meet one of the two acceptable circumstances?",
+    "accepted_values": ["Valid", "Invalid"]
+  },
+  "response_format": {
+    "description": "Do the responses follow the required formatting of THOUGHT and ACTION?",
+    "accepted_values": ["All responses formatted correctly", "Some responses formatted incorrectly", "All responses formatted incorrectly"]
+  }
+}

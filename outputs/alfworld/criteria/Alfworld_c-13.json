@@ -1,0 +1,30 @@
+{
+  "completeness": {
+    "description": "Degree to which the task is completed according to the instructions.",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-99%", "100%"]
+  },
+  "correct_actions": {
+    "description": "The number of actions that are valid and adhere to the given available actions.",
+    "accepted_values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10+"]
+  },
+  "planning_quality": {
+    "description": "How well the planning of actions is carried out, considering the available environment information.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "response_time": {
+    "description": "The speed of response to the environment and performing required actions.",
+    "accepted_values": ["very slow", "slow", "fast", "very fast"]
+  },
+  "adaptability": {
+    "description": "How well the assistant adapts to the changes in the environment and modifies its actions accordingly.",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "communication": {
+    "description": "The quality of the assistant's communication, such as following the required output format and clear thoughts.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "termination_criteria": {
+    "description": "If the assistant terminates appropriately according to the task instructions.",
+    "accepted_values": ["correct", "incorrect"]
+  }
+}

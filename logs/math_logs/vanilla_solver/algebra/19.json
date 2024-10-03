@@ -1,0 +1,13 @@
+{
+  "problem": "Fake gold bricks are made by covering concrete cubes with gold paint, so the cost of the paint is proportional to their surface area while the cost of the concrete is proportional to their volume.  If a 1 inch cube costs $\\$1.30$ to make while a 2 inch cube costs $\\$6.80$, then how much would a 3 inch cube cost?",
+  "level": "Level 5",
+  "type": "Algebra",
+  "solution": "Let $x$ be the cost per square inch of gold paint, and let $y$ be the cost per cubic inch of concrete.  Since a 1 inch cube has surface area 6 $\\text{in}^2$ and volume 1 $\\text{in}^3$ its total price will be $6x+y$ dollars.  Similarly, a 2 inch cube has surface area 24 $\\text{in}^2$ and volume 8 $\\text{in}^3$, so its total price will be $24x+8y$ dollars.  We are given that \\begin{align*} 6x+y &=\\$1.30 \\\\ 24x+8y&= \\$6.80 \\end{align*} Subtracting 4 times the first equation from the second gives $4y=\\$1.60$, so $y=\\$0.40$.  Hence $6x=\\$0.90$, so $x=\\$0.15$.  Since a 3 inch cube has surface area 54 $\\text{in}^2$ and volume 27 $\\text{in}^3$, its total price will be a total of $54(\\$0.15)+27(\\$0.40)=\\boxed{\\$18.90}$.",
+  "correct_ans": "\\$18.90",
+  "problem_id": "19",
+  "response_with_ans": "Let's denote the cost per unit of surface area as $a$ and the cost per unit of volume as $v$. The surface area $S$ of a cube with side length $d$ is $6d^2$ and the volume $V$ is $d^3$.\n\nWe can therefore express the total cost $c$ of a cube with side length $d$ as follows:\n\n$C = aS + vV = a6d^2 + vd^3$\n\nNow we can establish two equations based on the information we have about the 1 inch and 2 inch cubes:\n\nFor 1 inch cube:\n\n$1.30 = 6a + v$\n\nFor 2 inch cube:\n\n$6.80 = 24a + 8v$\n\nFrom here, we can solve this linear system for the variables $a$ and $v$. Subtracting the first equation from the second one gives:\n\n$5.50 = 18a + 7v$\n\nNow we can express $v$ in terms of $a$ from the first equation:\n\n$v = 1.30 - 6a$\n\nSubstitute $v$ into the equation involving $v$ and $a$:\n\n$5.50 = 18a + 7(1.30 - 6a)$\n\nWhich simplifies to:\n\n$5.50 = 18a + 9.1 - 42a$\n\nBy organizing it, we obtain:\n\n$a = \\frac{9.1 - 5.5}{42 - 18} = \\frac{3.6}{24} = 0.15$\n\nSubstitute $a$ into the first equation to find $v$:\n\n$v = 1.30 - 6(0.15) = 1.30 - 0.90 = 0.40$\n\nNow we know that the cost per unit of surface area is $0.15 and the cost per unit of volume is $0.40.\n\nWe can calculate the cost of a 3 inch cube:\n\n$C = 6a(3^2) + v(3^3) = 6(0.15)(9) + 0.40(27) = 8.10 + 10.80 = $18.90.",
+  "time": 23.113173723220825,
+  "check_result": "the answer extracted is $18.90.\n\nthe ground truth answer is $18.90.\n\nthe answer in the reply matches the ground truth answer. \n\nso, the answer is correct.",
+  "is_correct": true,
+  "trial": -1
+}

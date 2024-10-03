@@ -1,0 +1,26 @@
+{
+  "comprehension": {
+    "description": "Understanding the given task and environment",
+    "accepted_values": ["poor", "average", "good", "excellent"]
+  },
+  "strategy": {
+    "description": "Formulating a plan to accomplish the task",
+    "accepted_values": ["inefficient", "moderate", "efficient", "optimal"]
+  },
+  "adaptability": {
+    "description": "Ability to adapt strategy based on immediate feedback",
+    "accepted_values": ["low", "medium", "high", "excellent"]
+  },
+  "action_selection": {
+    "description": "Choosing appropriate actions from the given available actions",
+    "accepted_values": ["incorrect", "partially_correct", "correct", "optimal"]
+  },
+  "task_completion": {
+    "description": "Completing the final task successfully",
+    "accepted_values": ["failed", "partial", "successful", "optimal"]
+  },
+  "termination": {
+    "description": "Deciding when to terminate the task",
+    "accepted_values": ["premature", "incorrect", "correct", "optimal"]
+  }
+}

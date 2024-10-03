@@ -1,0 +1,26 @@
+{
+    "task_completion_time": {
+        "description": "Time taken to complete the task.",
+        "accepted_values": "time in seconds, minutes or hours"
+    },
+    "number_of_attempts": {
+        "description": "Number of attempts made to complete the task.",
+        "accepted_values": "integer values (1, 2, 3, ...)"
+    },
+    "number_of_successful_steps": {
+        "description": "Number of successful steps taken in the task.",
+        "accepted_values": "integer values (0, 1, 2, ...)"
+    },
+    "number_of_illegal_actions": {
+        "description": "Number of illegal actions taken during the task.",
+        "accepted_values": "integer values (0, 1, 2, ...)"
+    },
+    "planning_efficiency": {
+        "description": "Efficiency of planning in the task.",
+        "accepted_values": ["very low", "low", "medium", "high", "very high"]
+    },
+    "adaptability": {
+        "description": "Ability to adapt and replan based on the environment feedback.",
+        "accepted_values": ["very poor", "poor", "average", "good", "excellent"]
+    }
+}

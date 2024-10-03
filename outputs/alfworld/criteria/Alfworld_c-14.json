@@ -1,0 +1,27 @@
+{
+  "task_completion": {
+    "description": "The degree to which the task goal has been accomplished",
+    "accepted_values": ["incomplete", "partially_complete", "complete"]
+  },
+  "indicators_of_progress":
+  {
+    "description": "To what extent the user is progressing towards the goal based on given feedback",
+    "accepted_values": ["no_progress", "some_progress", "significant_progress"] 
+  },
+  "action_validity": {
+    "description": "The validity of actions taken by the user considering provided available actions",
+    "accepted_values": ["invalid_action", "partially_valid_action", "valid_action"]
+  },
+  "action_sequence": {
+    "description": "The order of actions taken to perform the task and achieve the goal",
+    "accepted_values": ["random", "partially_ordered", "ordered"]
+  },
+  "thought_process": {
+    "description": "How well the user thinks and plans for future actions based on the current condition",
+    "accepted_values": ["unclear_thoughts", "partially_clear_thoughts", "clear_thoughts"]
+  },
+  "termination_decision": {
+    "description": "The ability of the user to decide when to terminate the task",
+    "accepted_values": ["early_termination", "timely_termination", "late_termination"]
+  }
+}

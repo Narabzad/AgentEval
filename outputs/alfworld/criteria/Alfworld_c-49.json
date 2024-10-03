@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "Whether the task was successfully completed or not",
+    "accepted_values": ["success", "failure", "terminated"]
+  },
+  "steps_taken": {
+    "description": "Number of steps taken to complete the task",
+    "accepted_values": list(range(1, 100))
+  },
+  "correct_thoughts": {
+    "description": "The number of correct thoughts generated during the task",
+    "accepted_values": list(range(0, 100))
+  },
+  "incorrect_thoughts": {
+    "description": "The number of incorrect thoughts generated during the task",
+    "accepted_values": list(range(0, 100))
+  },
+  "action_success_rate": {
+    "description": "The rate of successful actions performed during the task",
+    "accepted_values": ["0-25%", "25-50%", "50-75%", "75-100%"]
+  },
+  "environment_adaptability": {
+    "description": "The ability to adapt to the changing environment and feedback",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "time_efficiency": {
+    "description": "The overall time efficiency in completing the task",
+    "accepted_values": ["slow", "moderate", "fast"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the provided solution to the math problem.",
+    "accepted_values": ["0", "0.25", "0.5", "0.75", "1"]
+  },
+  "clarity": {
+    "description": "The clarity of the solution, including steps and explanations.",
+    "accepted_values": ["1", "2", "3", "4", "5"]
+  },
+  "efficiency": {
+    "description": "How efficient the solution is in solving the problem.",
+    "accepted_values": ["1", "2", "3", "4", "5"]
+  },
+  "completeness": {
+    "description": "The completeness of the solution addressing all parts of the problem.",
+    "accepted_values": ["1", "2", "3", "4", "5"]
+  },
+  "communication": {
+    "description": "The quality of communication during the problem-solving process.",
+    "accepted_values": ["1", "2", "3", "4", "5"]
+  }
+}

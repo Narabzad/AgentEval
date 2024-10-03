@@ -1,0 +1,26 @@
+{
+  "task_comprehension": {
+    "description": "Understanding of the task and its requirements",
+    "accepted_values": ["Not understood", "Partially understood", "Understood"]
+  },
+  "action_validity": {
+    "description": "Whether the proposed action is among the provided available actions",
+    "accepted_values": ["Invalid action", "Valid action"]
+  },
+  "action_progression": {
+    "description": "How well the action helps in progressing towards the task goal",
+    "accepted_values": ["No progress", "Minor progress", "Moderate progress", "Significant progress"]
+  },
+  "thoughtfulness": {
+    "description": "How well the thought process contributes to planning the following actions",
+    "accepted_values": ["Not thoughtful", "Somewhat thoughtful", "Thoughtful", "Very thoughtful"]
+  },
+  "efficiency": {
+    "description": "How efficiently the overall actions are performed to reach the end goal",
+    "accepted_values": ["Inefficient", "Moderately efficient", "Efficient", "Highly efficient"]
+  },
+  "termination_reason": {
+    "description": "The reason for replying 'TERMINATE'",
+    "accepted_values": ["Unclear instructions", "Task insolvable", "Task success", "Invalid termination"]
+  }
+}

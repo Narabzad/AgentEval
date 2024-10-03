@@ -1,0 +1,26 @@
+{
+  "problem_understanding": {
+    "description": "Understanding the given problem and relevant environment.",
+    "accepted_values": ["0 - Not understood", "1 - Partially understood", "2 - Adequately understood", "3 - Fully understood"]
+  },
+  "action_selection": {
+    "description": "Selecting the appropriate sequence and type of actions.",
+    "accepted_values": ["0 - Poor selection", "1 - Somewhat acceptable selection", "2 - Good selection", "3 - Optimal selection"]
+  },
+  "proper_format": {
+    "description": "Using the required format for thoughts and actions.",
+    "accepted_values": ["0 - Incorrect format", "1 - Partially correct format", "2 - Correct format"]
+  },
+  "adaptability": {
+    "description": "Adapting the plan based on environment feedback.",
+    "accepted_values": ["0 - Not adaptable", "1 - Somewhat adaptable", "2 - Highly adaptable"]
+  },
+  "efficiency": {
+    "description": "Completing the task with minimum number of steps.",
+    "accepted_values": ["0 - Inefficient", "1 - Moderately efficient", "2 - Efficient", "3 - Highly efficient"]
+  },
+  "terminate_usage": {
+    "description": "Using TERMINATE command under appropriate circumstances.",
+    "accepted_values": ["0 - Incorrect use", "1 - Partially correct use", "2 - Correct use"]
+  }
+}

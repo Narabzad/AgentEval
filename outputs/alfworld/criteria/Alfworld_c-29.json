@@ -1,0 +1,34 @@
+{
+  "task_completion": {
+    "description": "The ability to successfully complete the given task.",
+    "accepted_values": ["Not completed", "Partially completed", "Fully completed"]
+  },
+  "environment_interaction": {
+    "description": "The ability to interact with and navigate the virtual environment appropriately.",
+    "accepted_values": ["None", "Minimal", "Adequate", "Outstanding"]
+  },
+  "following_instructions": {
+    "description": "The ability to follow the task guidelines and specific instructions.",
+    "accepted_values": ["Not followed", "Partially followed", "Fully followed"]
+  },
+  "legal_action": {
+    "description": "The appropriateness of chosen actions, whether they are valid and legal according to the available actions provided.",
+    "accepted_values": ["None", "Few", "Most", "All"]
+  },
+  "adaptability": {
+    "description": "The capacity to adapt and adjust the strategy based on the environment's feedback.",
+    "accepted_values": ["Not adaptable", "Slightly adaptable", "Moderately adaptable", "Highly adaptable"]
+  },
+  "thought_process": {
+    "description": "The quality of the thought process displayed while solving the task.",
+    "accepted_values": ["Poor", "Fair", "Good", "Excellent"]
+  },
+  "efficiency": {
+    "description": "The effectiveness in completing the task in minimum number of steps.",
+    "accepted_values": ["Inefficient", "Moderately efficient", "Efficient", "Highly efficient"]
+  },
+  "termination": {
+    "description": "The correct usage of 'TERMINATE' in the appropriate situations according to the task guidelines.",
+    "accepted_values": ["Incorrect usage", "Partially correct usage", "Correct usage"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The correctness of the solution, measured as a boolean value indicating whether the provided answer is accurate or not.",
+    "accepted_values": [True, False]
+  },
+  "completeness": {
+    "description": "The extent to which the solution covers all necessary steps in problem-solving, measured as a percentage.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "conciseness": {
+    "description": "The efficiency in expressing the solution, measured by the number of steps or length of the explanation.",
+    "accepted_values": ["very concise", "concise", "average", "verbose", "very verbose"]
+  },
+  "clarity": {
+    "description": "The ease of understanding the provided solution, measured by the quality of explanations and formatting.",
+    "accepted_values": ["very clear", "clear", "average", "unclear", "very unclear"]
+  },
+  "response_time": {
+    "description": "The time taken to provide the solution, measured in seconds.",
+    "accepted_values": "numerical values"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "problem_solving": {
+    "description": "Ability to understand and solve the given task",
+    "accepted_values": ["poor", "below_average", "average", "good", "excellent"]
+  },
+  "environment_understanding": {
+    "description": "Ability to pick up on environmental cues, descriptions, and follow instructions",
+    "accepted_values": ["poor", "below_average", "average", "good", "excellent"]
+  },
+  "action_efficiency": {
+    "description": "Efficiency in choosing and performing actions to solve the task",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "thought_explanation": {
+    "description": "Clarity and relevance of explanations provided for thoughts",
+    "accepted_values": ["poor", "below_average", "average", "good", "excellent"]
+  },
+  "task_completion_speed": {
+    "description": "Speed in solving the task",
+    "accepted_values": ["slow", "moderate", "fast"]
+  },
+  "format_adherence": {
+    "description": "Strictly following the format of thoughts and actions",
+    "accepted_values": ["poor", "below_average", "average", "good", "excellent"]
+  },
+  "legal_action_awareness": {
+    "description": "Choosing only actions that are provided and considered legal",
+    "accepted_values": ["poor", "below_average", "average", "good", "excellent"]
+  },
+  "termination_judgment": {
+    "description": "Ability to judge when to terminate based on task instructions and solvability",
+    "accepted_values": ["poor", "below_average", "average", "good", "excellent"]
+  }
+}

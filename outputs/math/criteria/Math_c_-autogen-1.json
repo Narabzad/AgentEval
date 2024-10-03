@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The correctness of the provided solution.",
+    "accepted_values": ["0% - Completely incorrect", "25% - Partially correct", "50% - Mostly correct", "75% - Almost correct", "100% - Completely correct"]
+  },
+  "completeness": {
+    "description": "The extent to which the solution covers all aspects of the problem.",
+    "accepted_values": ["0% - Not complete", "25% - Partially complete", "50% - Mostly complete", "75% - Almost complete", "100% - Fully complete"]
+  },
+  "conciseness": {
+    "description": "The ability of the solution to express the problem-solving process succinctly without extra information.",
+    "accepted_values": ["0% - Not concise", "25% - Somewhat concise", "50% - Fairly concise", "75% - Mostly concise", "100% - Very concise"]
+  },
+  "clarity": {
+    "description": "The ease with which the solution can be understood by the target audience.",
+    "accepted_values": ["0% - Not clear", "25% - Somewhat clear", "50% - Fairly clear", "75% - Mostly clear", "100% - Very clear"]
+  },
+  "steps_delineation": {
+    "description": "How well the solution breaks down the problem-solving process into smaller, manageable steps.",
+    "accepted_values": ["0% - No steps delineated", "25% - Few steps delineated", "50% - Some steps delineated", "75% - Most steps delineated", "100% - All steps delineated"]
+  }
+}

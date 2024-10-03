@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "Accuracy of the solution to the given math problem",
+    "accepted_values": ["incorrect", "partially_correct", "correct"]
+  },
+  "clarity": {
+    "description": "Clarity of the solution explanation",
+    "accepted_values": ["confusing", "acceptable", "clear", "very_clear"]
+  },
+  "conciseness": {
+    "description": "Conciseness of the solution explanation",
+    "accepted_values": ["verbose", "acceptable", "concise"]
+  },
+  "step_completion": {
+    "description": "Amount of steps in the solution completed",
+    "accepted_values": ["0-25%", "25-50%", "50-75%", "75-100%"]
+  },
+  "solution_approach": {
+    "description": "Appropriateness of the solution approach used",
+    "accepted_values": ["appropriate", "questionable", "inappropriate"]
+  }
+}

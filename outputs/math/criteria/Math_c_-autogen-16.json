@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "clarity": {
+    "description": "The clarity of the explanation and solution steps",
+    "accepted_values": ["Very unclear", "Unclear", "Somewhat clear", "Clear", "Very clear"]
+  },
+  "conciseness": {
+    "description": "The conciseness of the solution, avoiding unnecessary steps",
+    "accepted_values": ["Very verbose", "Verbose", "Neutral", "Concise", "Very concise"]
+  },
+  "efficiency": {
+    "description": "The efficiency of the solution method, minimizing computation time",
+    "accepted_values": ["Very inefficient", "Inefficient", "Neutral", "Efficient", "Very efficient"]
+  },
+  "notation": {
+    "description": "Correctness and consistency of notations and symbols used in the solution",
+    "accepted_values": ["Incorrect notation", "Inconsistent notation", "Partially correct notation", "Correct notation"]
+  }
+}

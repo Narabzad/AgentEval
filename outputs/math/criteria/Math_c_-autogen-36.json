@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The correctness of the solution provided for the math problem",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "conciseness": {
+    "description": "The conciseness of the solution, avoiding unnecessary steps or explanations",
+    "accepted_values": ["Not concise", "Somewhat concise", "Concise"]
+  },
+  "completeness": {
+    "description": "The extent to which the solution covers all required steps and details to reach the final answer",
+    "accepted_values": ["Incomplete", "Mostly complete", "Complete"]
+  },
+  "understandability": {
+    "description": "The clarity and coherence of the solution, making it easy for users to follow",
+    "accepted_values": ["Not understandable", "Somewhat understandable", "Understandable"]
+  },
+  "response_time": {
+    "description": "The time taken to provide the solution",
+    "accepted_values": ["Slow", "Moderate", "Fast"]
+  }
+}

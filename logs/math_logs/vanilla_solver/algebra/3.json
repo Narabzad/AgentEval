@@ -1,0 +1,13 @@
+{
+  "problem": "For what negative value of $k$ is there exactly one solution to the system of equations \\begin{align*}\ny &= 2x^2 + kx + 6 \\\\\ny &= -x + 4?\n\\end{align*}",
+  "level": "Level 5",
+  "type": "Algebra",
+  "solution": "Setting the two expressions for $y$ equal to each other, it follows that $2x^2 + kx + 6 = -x + 4$. Re-arranging, $2x^2 + (k+1)x + 2 = 0$. For there to be exactly one solution for $x$, then the discriminant of the given quadratic must be equal to zero. Thus, $(k+1)^2 - 4 \\cdot 2 \\cdot 2 = (k+1)^2 - 16 = 0$, so $k+1 = \\pm 4$. Taking the negative value, $k = \\boxed{-5}$.",
+  "correct_ans": "-5",
+  "problem_id": "3",
+  "response_with_ans": "We can find the values of values of $x$ that satisfy both equations by setting them equal to each other:\n$$2x^2 +kx +6 = -x +4 .$$\n\nThis simplifies to the quadratic equation:\n$$2x^2 + (k+1)x +2 = 0.$$ \n\nA quadratic equation $ax^2 +bx +c = 0$ has exactly one solution if and only if the discriminant is equal to zero. The discriminant is given by the formula $b^2 - 4ac$.\n\nSo we set discriminant equals to 0 and get:\n\n$$(k+1)^2 -4*2*2 = 0 .$$\n\nThis simplifies to:\n\n$$k^2 +2k +1 -16 = 0 .$$\n\nFurther simplification results in:\n\n$$k^2 +2k -15 = 0 .$$\n\nFactoring this, we get:\n\n$$(k-3)(k+5) = 0. $$\n\nSetting each factor equal to zero gives the solutions $k=3$ and $k=-5$. \n\nSince we're asked for the negative value of k, the final solution will be $k = -5$.",
+  "time": 6.683013439178467,
+  "check_result": "the answer in the reply is: \"k = -5\".\n\nthe answer in the reply matches the ground truth answer.\n\n\"the answer is correct.\"",
+  "is_correct": true,
+  "trial": -1
+}

@@ -1,0 +1,26 @@
+{
+  "task_completion": {
+    "description": "The extent to which the given task is completed by performing valid actions",
+    "accepted_values": ["not attempted", "partially completed", "completed"]
+  },
+  "valid_actions": {
+    "description": "The ratio of valid actions taken to invalid actions",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+  },
+  "efficiency": {
+    "description": "The number of actions required to complete the task",
+    "accepted_values": ["low efficiency (high number of actions)", "medium efficiency (moderate number of actions)", "high efficiency (low number of actions)"]
+  },
+  "strategy": {
+    "description": "The quality of the thought process and strategic planning",
+    "accepted_values": ["no strategy", "basic strategy", "detailed strategy"]
+  },
+  "adaptability": {
+    "description": "Ability to adapt the plan based on the immediate feedback from the environment",
+    "accepted_values": ["does not adapt", "partially adapts", "fully adapts"]
+  },
+  "termination": {
+    "description": "Appropriate usage of 'TERMINATE' based on task completion or insolvability",
+    "accepted_values": ["correct", "incorrect", "used unnecessarily"]
+  }
+}

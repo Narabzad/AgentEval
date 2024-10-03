@@ -1,0 +1,22 @@
+{
+  "1. Accuracy": { 
+    "description": "The correctness of the final solution and the process to reach it.",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "2. Clarity": {
+    "description": "Ease of understanding the solution steps and explanation provided.",
+    "accepted_values": ["Confusing", "Needs improvement", "Clear"]
+  },
+  "3. Completeness": {
+    "description": "The extent to which all necessary steps and information are provided.",
+    "accepted_values": ["Incomplete", "Mostly complete", "Complete"]
+  },
+  "4. Efficiency": {
+    "description": "The simplicity and conciseness of the solution.",
+    "accepted_values": ["Inefficient", "Moderately efficient", "Efficient"]
+  },
+  "5. Response time": {
+    "description": "The speed at which the solution is provided.",
+    "accepted_values": ["Slow", "Acceptable", "Fast"]
+  }
+}

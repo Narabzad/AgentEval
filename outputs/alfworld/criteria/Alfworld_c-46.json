@@ -1,0 +1,34 @@
+{
+  "task_completion": {
+    "description": "Whether the given task is completed or not.",
+    "accepted_values": ["completed", "incomplete", "insolvable"]
+  },
+  "valid_actions": {
+    "description": "The number of valid actions taken during the task",
+    "accepted_values": range(0, 100)
+  },
+  "invalid_actions": {
+    "description": "The number of invalid actions taken during the task",
+    "accepted_values": range(0, 100)
+  },
+  "efficiency": {
+-    "description": "The ratio of valid actions to total actions taken",
+-    "accepted_values": ["{:.2f}".format(i) for i in np.arange(0, 1.1, 0.1)]+ ["N/A"]
+  },
+  "task_understanding": {
+    "description": "The level of understanding of the task and its goals.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "planning": {
+    "description": "The ability to plan and strategize the steps to achieve the goal.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "environment_interaction": {
+    "description": "The ability to correctly interact with the environment and use its objects.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "termination": {
+    "description": "Whether 'TERMINATE' is used correctly in solving or giving up the task.",
+    "accepted_values": ["correct", "incorrect"]
+  }
+}

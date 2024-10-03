@@ -1,0 +1,188 @@
+{
+    "task completion": {
+        "description": "Degree to which the task is completed successfully",
+        "accepted_values": [
+            "0%",
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ]
+    },
+    "action validity": {
+        "description": "Actions must be chosen from the given available actions, with illegitimate actions taken into account",
+        "accepted_values": [
+            "three_or_more_illegal",
+            "two_illegal",
+            "one_illegal",
+            "all_legal"
+        ]
+    },
+    "thought process": {
+        "description": "The quality of the thought process and planning throughout the task",
+        "accepted_values": [
+            "poor",
+            "fair",
+            "good",
+            "excellent"
+        ]
+    },
+    "systematic search": {
+        "description": "How systematically the player searched for items and target locations",
+        "accepted_values": [
+            "poor",
+            "moderate",
+            "good",
+            "excellent"
+        ]
+    },
+    "interaction flow": {
+        "description": "The smoothness and continuity of interactions with the environment",
+        "accepted_values": [
+            "frequent_disruptions",
+            "some_disruptions",
+            "smooth"
+        ]
+    },
+    "task time": {
+        "description": "The time taken to accomplish the task",
+        "accepted_values": [
+            "slow",
+            "average",
+            "fast",
+            "very_fast"
+        ]
+    },
+    "planning strategy": {
+        "description": "Quality of the devised plan for completing the task",
+        "accepted_values": [
+            "poor",
+            "fair",
+            "good",
+            "excellent"
+        ]
+    },
+    "action efficiency": {
+        "description": "Efficiency of the chosen actions in solving the task",
+        "accepted_values": [
+            "low",
+            "moderate",
+            "high",
+            "very high"
+        ]
+    },
+    "response format": {
+        "description": "Adherence to the required response format",
+        "accepted_values": [
+            "incorrect",
+            "partially correct",
+            "correct"
+        ]
+    },
+    "adaptability to feedback": {
+        "description": "Ability to adapt and modify the plan based on the environment's feedback",
+        "accepted_values": [
+            "low",
+            "moderate",
+            "high",
+            "very high"
+        ]
+    },
+    "termination judgment": {
+        "description": "Proper judgment of when to reply with 'TERMINATE'",
+        "accepted_values": [
+            "incorrect",
+            "partially correct",
+            "correct"
+        ]
+    },
+    "efficiency": {
+        "description": "Assesses the number of steps taken in comparison to the minimum possible steps required to complete the task",
+        "accepted_values": [
+            "below_average",
+            "average",
+            "near_optimal",
+            "optimal"
+        ]
+    },
+    "problem solving": {
+        "description": "The ability to quickly identify and adapt to changes in the environment during task execution",
+        "accepted_values": [
+            "no_adaptation",
+            "slow_adaptation",
+            "moderate_adaptation",
+            "fast_adaptation"
+        ]
+    },
+    "target handling": {
+        "description": "How well the player followed instructions for handling the target household",
+        "accepted_values": [
+            "poor",
+            "moderate",
+            "good",
+            "excellent"
+        ]
+    },
+    "environment understanding": {
+        "description": "The ability to understand the provided environment description and identify relevant objects",
+        "accepted_values": [
+            "poor",
+            "fair",
+            "good",
+            "excellent"
+        ]
+    },
+    "compliance with instructions": {
+        "description": "Adherence to specific rules and instructions such as reply formatting and termination conditions",
+        "accepted_values": [
+            "non-compliant",
+            "partially compliant",
+            "compliant"
+        ]
+    },
+    "legal actions": {
+        "description": "Selecting actions from the given available actions and avoiding illegal actions",
+        "accepted_values": [
+            "poor",
+            "below_average",
+            "average",
+            "good",
+            "excellent"
+        ]
+    },
+    "target acquisition": {
+        "description": "Acquiring the target household object immediately after finding it",
+        "accepted_values": [
+            "poor",
+            "fair",
+            "good",
+            "excellent"
+        ]
+    },
+    "format adherence": {
+        "description": "The extent to which the output format is strictly followed",
+        "accepted_values": [
+            "Incorrect format",
+            "Minor format issues",
+            "Correct format"
+        ]
+    },
+    "problem understanding": {
+        "description": "Understanding of the given task and relevance of the environment",
+        "accepted_values": [
+            "0 - Not understood",
+            "1 - Partially understood",
+            "2 - Adequately understood",
+            "3 - Fully understood"
+        ]
+    },
+    "action selection": {
+        "description": "Choosing the appropriate sequence and type of actions",
+        "accepted_values": [
+            "0 - Poor selection",
+            "1 - Somewhat acceptable selection",
+            "2 - Good selection",
+            "3 - Optimal selection"
+        ]
+    }
+}

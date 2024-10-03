@@ -1,0 +1,13 @@
+{
+  "problem": "Three cards are chosen at random from a standard 52-card deck.  What is the probability that they are not all the same color?",
+  "level": "Level 5",
+  "type": "Counting & Probability",
+  "solution": "We can find the probability they are all same color, then subtract that from 1. There are 26 cards of each color, so 3 of them can be selected in $\\binom{26}{3}$ ways, and of course there are 2 colors.  So the answer is \\[1-2\\frac{\\binom{26}{3}}{\\binom{52}{3}}=\\boxed{\\frac{13}{17}}.\\]",
+  "correct_ans": "\\frac{13}{17}",
+  "problem_id": "2",
+  "response_with_ans": "The total number of ways to draw 3 cards from a 52-card deck is 52C3, where \"C\" represents the combination function.\n\nThere are 2 colors in a standard deck, black (clubs and spades) and red (hearts and diamonds), each color having 26 cards.\n\nThe number of ways to draw 3 cards of the same color is 26C3 for black and 26C3 for red.\n\nSo the total ways to draw 3 cards of the same color is 2*26C3.\n\nThe probability that 3 cards drawn are the same color is [2*26C3] / 52C3\n\nThe probability that the 3 cards drawn are not the same color is 1 minus the probability that they are the same color.\n\nLet's calculate these values:\n\n52C3 = 22,100\n26C3 = 2,600\n2*26C3 = 5,200\n\nSo the probability that 3 cards are the same color is 5200/22100 = 0.2353\n\nSo the probability that the 3 cards are not the same color is 1 - 0.2353 = 0.7647 or approximately 76.47% when rounded to the nearest percentage point.",
+  "time": 8.332894563674927,
+  "check_result": "the answer extracted from the reply is: 0.7647 or 76.47%\n\ncomparing this answer with the ground truth answer: \nthe ground truth answer is given in a fractional form as \\frac{13}{17} which is approximately 0.7647 when rounded to nearest four decimal points. \n\nthe actual problem is asking to calculate the probability that three cards chosen at random from a standard 52-card deck are not all the same color. the reply provides the correct method, i.e., 1 minus the probability that the three cards are of the same color. therefore, the forms of the reply's answer and the ground truth answer are somewhat different (percentage vs fraction), but they express the same value.\n\ntherefore, \n\n\"the answer is approximated but should be correct. correct answer: \\frac{13}{17} | answer extracted: 0.7647 or 76.47%\"",
+  "is_correct": true,
+  "trial": -1
+}

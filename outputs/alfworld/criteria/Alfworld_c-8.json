@@ -1,0 +1,34 @@
+{
+    "problem_understanding": {
+        "description": "Ability to understand the given problem and the requirements",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "planning_strategy": {
+        "description": "Quality of the devised plan for completing the task",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "action_efficiency": {
+        "description": "Efficiency of the chosen actions in solving the task",
+        "accepted_values": ["low", "moderate", "high", "very high"]
+    },
+    "response_format": {
+        "description": "Adherence to the required response format",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    },
+    "adaptability_to_feedback": {
+        "description": "Ability to adapt and modify the plan based on the environment's feedback",
+        "accepted_values": ["low", "moderate", "high", "very high"]
+    },
+    "valid_actions": {
+        "description": "Usage of valid actions from the provided available actions",
+        "accepted_values": ["low", "moderate", "high", "very high"]
+    },
+    "task_completion": {
+        "description": "Successful completion of the given task",
+        "accepted_values": ["not completed", "partially completed", "completed"]
+    },
+    "termination_judgment": {
+        "description": "Proper judgment of when to reply with 'TERMINATE'",
+        "accepted_values": ["incorrect", "partially correct", "correct"]
+    }
+}

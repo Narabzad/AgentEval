@@ -1,0 +1,37 @@
+{
+    "goal_completion": {
+        "description": "Whether the player completed the task goal or not.", 
+        "accepted_values": ["success", "partial", "failure"]
+    },
+    
+    "num_actions": {
+        "description": "The number of actions taken to complete the task.", 
+        "accepted_values": range(0, 100)
+    },
+
+    "num_invalid_actions": {
+        "description": "The number of invalid actions performed during the task.", 
+        "accepted_values": range(0, 100)
+    },
+
+    "thought_process": {
+        "description": "The clarity and quality of the thought process shared before taking actions.", 
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+
+    "sequence_of_actions": {
+        "description": "How effective and well-planned the sequence of actions was, leading to the completion or partial completion of the task.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+
+    "interaction_with_environment": {
+        "description": "How well the player interacted with the environment, including using available objects, and how efficient they were.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+  
+    "use_of_terminate": {
+        "description": "Whether 'TERMINATE' was used correctly according to the task instructions.",
+        "accepted_values": ["correct", "incorrect", "not_applicable"]
+    }
+
+}

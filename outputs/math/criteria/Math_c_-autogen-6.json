@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution provided by the system",
+    "accepted_values": ["0-20%", "21-40%", "41-60%", "61-80%", "81-100%"]
+  },
+  "conciseness": {
+    "description": "The ability of the system to provide a concise solution to the problem",
+    "accepted_values": ["very concise", "concise", "neutral", "verbose", "very verbose"]
+  },
+  "clarity": {
+    "description": "The clarity of the explanation and work process provided by the system",
+    "accepted_values": ["very clear", "clear", "neutral", "unclear", "very unclear"]
+  },
+  "completeness": {
+    "description": "The completeness of the solution, covering all necessary steps and aspects",
+    "accepted_values": ["fully complete", "mostly complete", "partially complete", "slightly complete", "not complete"]
+  },
+  "problem_difficulty": {
+    "description": "The difficulty level of the math problem in the given task",
+    "accepted_values": ["Level 1", "Level 2", "Level 3", "Level 4", "Level 5"]
+  }
+}

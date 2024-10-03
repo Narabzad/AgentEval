@@ -1,0 +1,26 @@
+{
+  "accuracy": {
+    "description": "The correctness of the final answer provided by the system",
+    "accepted_values": ["0-25%", "26-50%", "51-75%", "76-99%", "100%"]
+  },
+  "clarity": {
+    "description": "How clear and understandable is the solution provided by the system",
+    "accepted_values": ["Very poor", "Poor", "Intermediate", "Good", "Excellent"]
+  },
+  "efficiency": {
+    "description": "The conciseness and brevity of the solution provided by the system",
+    "accepted_values": ["Very inefficient", "Inefficient", "Intermediate", "Efficient", "Very efficient"]
+  },
+  "speed": {
+    "description": "The time taken by the system to provide the solution",
+    "accepted_values": ["Very slow (15+ sec)", "Slow (10-15 sec)", "Intermediate (5-10 sec)", "Fast (0-5 sec)", "Instantaneous"]
+  },
+  "level_appropriateness": {
+    "description": "How well-suited the solution provided by the system is for the given problem's level",
+    "accepted_values": ["Not appropriate", "Slightly appropriate", "Moderately appropriate", "Appropriate", "Highly appropriate"]
+  },
+  "error_handling": {
+    "description": "How well the system identifies and addresses possible errors in the problem",
+    "accepted_values": ["Ignored all errors", "Handled very few errors", "Handled some errors", "Handled most errors", "Handled all errors"]
+  }
+}

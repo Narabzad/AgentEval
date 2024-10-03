@@ -1,0 +1,22 @@
+{
+  "Accuracy": {
+    "description": "The accuracy of the solution to the given math problem",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "Solution_Depth": {
+    "description": "The depth of the solution provided in terms of showing all steps and important calculations",
+    "accepted_values": ["Superficial", "Moderate", "Detailed", "Extremely detailed"]
+  },
+  "Clarity": {
+    "description": "The clarity of the explanation provided in the solution and the use of mathematical notation",
+    "accepted_values": ["Unclear", "Somewhat clear", "Clear", "Very clear"]
+  },
+  "Efficiency": {
+    "description": "The efficiency of the solution in terms of the method chosen and the optimization of calculations",
+    "accepted_values": ["Inefficient", "Moderately efficient", "Very efficient"]
+  },
+  "Use_of_Identities": {
+    "description": "The appropriate use of mathematical identities and formulas in the solution process",
+    "accepted_values": ["Poor use", "Adequate use", "Excellent use"]
+  }
+}

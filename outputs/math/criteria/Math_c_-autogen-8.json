@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "Accuracy of the solved math problem",
+    "accepted_values": ["correct", "incorrect", "partially_correct"]
+  },
+  "solution_conciseness": {
+    "description": "Conciseness of the solution provided",
+    "accepted_values": ["very_concise", "moderately_concise", "lengthy", "repetitive"]
+  },
+  "solution_clarity": {
+    "description": "Clarity and understandability of the solution",
+    "accepted_values": ["very_clear", "moderately_clear", "unclear", "confusing"]
+  },
+  "problem_difficulty": {
+    "description": "Difficulty level of the math problem",
+    "accepted_values": ["very_easy", "easy", "moderate", "difficult", "very_difficult"]
+  },
+  "appropriate_methods": {
+    "description": "Use of appropriate mathematical methods and theorems",
+    "accepted_values": ["fully_appropriate", "mostly_appropriate", "partially_appropriate", "inappropriate"]
+  }
+}

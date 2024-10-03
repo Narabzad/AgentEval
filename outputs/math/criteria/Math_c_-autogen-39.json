@@ -1,0 +1,22 @@
+{
+  "Accuracy": {
+    "description": "The correctness of the solution provided by the system.",
+    "accepted_values": ["incorrect", "partially correct", "correct"]
+  },
+  "Clarity": {
+    "description": "The ease of understanding the solution provided by the system.",
+    "accepted_values": ["not clear", "somewhat clear", "clear", "very clear"]
+  },
+  "Completeness": {
+    "description": "Whether the system addresses all cases and sub-cases necessary to solve the problem.",
+    "accepted_values": ["incomplete", "mostly complete", "complete"]
+  },
+  "Efficiency": {
+    "description": "The conciseness of the solution provided by the system.",
+    "accepted_values": ["inefficient", "moderately efficient", "efficient"]
+  },
+  "Relevance": {
+    "description": "The relevancy of the solution provided by the system to the given problem.",
+    "accepted_values": ["not relevant", "somewhat relevant", "relevant"]
+  }
+}

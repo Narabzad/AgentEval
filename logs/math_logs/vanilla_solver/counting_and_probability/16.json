@@ -1,0 +1,13 @@
+{
+  "problem": "A cook has 10 red peppers and 5 green peppers. If the cook selects 6 peppers at random, what is the probability that he selects at least 4 green peppers? Express your answer as a common fraction.",
+  "level": "Level 5",
+  "type": "Counting & Probability",
+  "solution": "We can count the number of ways to choose a group of 4 green and 2 red peppers and the number of ways to choose 5 green and 1 red peppers. These are $\\binom{5}{4}\\binom{10}{2}=5\\cdot45=225$ and $\\binom{5}{5}\\binom{10}{1}=10$. The total number of ways the cook can choose peppers is $\\binom{15}{6}=5005$. Therefore, the probability that out of six randomly chosen peppers at least four will be green is $\\frac{235}{5005}=\\boxed{\\frac{47}{1001}}$.",
+  "correct_ans": "\\frac{47}{1001}",
+  "problem_id": "16",
+  "response_with_ans": "To calculate this, we need to find the probability for selection of exactly 4, 5, and 6 green peppers. Given the total number of peppers is 15 (10 red and 5 green), the scenarios are:\n\n1. Selecting 4 green peppers and 2 red peppers\n2. Selecting 5 green peppers and 1 red pepper\n3. Selecting all 6 green peppers\n\nFirst, we should find the total combinations of selecting 6 peppers from 15 which is C(15, 6).\n\nThe formula of combination is: C(n, r) = n! / [r!(n-r)!], where \"n\" is the total number of objects, \"r\" is the number of objects to choose, and \"!\" denotes factorial.\n\nTotal combinations = C(15, 6) = 15! / [6!(15-6)!] = 5005\n\nFor scenario 1:\n\nThe number of ways to choose 4 green peppers from 5 is C(5, 4) = 5. The number of ways to choose 2 red peppers from 10 is C(10, 2) = 45. Therefore, the overall number of combinations for scenario 1 is 5 * 45 = 225.\n\nFor scenario 2:\n\nNumber of ways to choose 5 green peppers from 5 is C(5, 5) = 1. Number of ways to choose 1 red pepper from 10 is C(10, 1) = 10. Therefore, the overall number of combinations for scenario 2 is 1 * 10 = 10.\n\nFor scenario 3:\n\nNumber of ways to choose 6 green peppers from 5 is C(5, 6), but this is impossible. Hence, there are 0 ways or combinations.\n\nAdding these scenarios together, 225 (scenario 1) + 10 (scenario 2) + 0 (scenario 3) = 235.\n\nThe desired probability of selection with at least 4 green peppers is hence 235 / 5005 = 47 / 1001.",
+  "time": 18.275169134140015,
+  "check_result": "1. the answer in the reply is: 47 / 1001.\n2. the answer matches the ground truth answer.\n\nafter checking everything, the result is: \"the answer is correct.\"",
+  "is_correct": true,
+  "trial": -1
+}

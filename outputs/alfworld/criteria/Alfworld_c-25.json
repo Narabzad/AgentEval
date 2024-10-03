@@ -1,0 +1,30 @@
+{
+    "comprehension": {
+        "description": "Understanding the given environment, goal, and available actions.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "planning": {
+        "description": "Ability to create an efficient plan based on the given information and environment.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "execution": {
+        "description": "Ability to perform the planned actions and adapt based on the environmental feedback.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "error_handling": {
+        "description": "Ability to recover from invalid actions or environmental changes.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "efficiency": {
+        "description": "Completing tasks with the least number of actions.",
+        "accepted_values": ["low", "medium", "high"]
+    },
+    "format_adherence": {
+        "description": "Strict adherence to the required input and output formats.",
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    },
+    "termination": {
+        "description": "Terminating the task only when necessary and according to the instructions.",
+        "accepted_values": ["inappropriate", "appropriate"]
+    }
+}

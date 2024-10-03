@@ -1,0 +1,22 @@
+{
+  "Accuracy": {
+    "description": "The correctness of the solution provided by the system",
+    "accepted_values": ["Completely incorrect", "Partially correct", "Mostly correct", "Completely correct"]
+  },
+  "Efficiency": {
+    "description": "The conciseness and simplicity of the solution provided by the system",
+    "accepted_values": ["Inefficient", "Somewhat efficient", "Efficient", "Highly efficient"]
+  },
+  "Clarity": {
+    "description": "The ease of understanding the solution provided by the system",
+    "accepted_values": ["Not clear at all", "Somewhat clear", "Clear", "Very clear"]
+  },
+  "Step-by-step logic": {
+    "description": "The presence and organization of a step-by-step explanation for solving the problem",
+    "accepted_values": ["Absent", "Partially present", "Mostly present", "Completely present"]
+  },
+  "Use of appropriate methods": {
+    "description": "The application of suitable mathematical techniques and methods to solve the problem",
+    "accepted_values": ["Inappropriate", "Somewhat appropriate", "Appropriate", "Highly appropriate"]
+  }
+}

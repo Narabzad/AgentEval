@@ -1,0 +1,30 @@
+{
+    "task_completion": {
+        "description": "The degree to which the task goal was accomplished",
+        "accepted_values": ["not_completed", "partially_completed", "completed"]
+    },
+    "correct_actions": {
+        "description": "The proportion of correct actions taken with respect to possible actions",
+        "accepted_values": ["all_correct", "mostly_correct", "few_correct", "none_correct"]
+    },
+    "action_format": {
+        "description": "The extent to which the formatting of actions and thoughts adhered to the rules",
+        "accepted_values": ["strictly_followed", "minor_deviation", "major_deviation", "not_followed"]
+    },
+    "planning": {
+        "description": "The quality of planning and strategy applied to solve the task",
+        "accepted_values": ["excellent_planning", "good_planning", "some_planning", "no_planning"]
+    },
+    "environment_interaction": {
+        "description": "How well the interactions with the environment were performed",
+        "accepted_values": ["optimal_interaction", "mostly_efficient_interaction", "inefficient_interaction", "no_interaction"]
+    },
+    "response_to_feedback": {
+        "description": "How effectively the feedback from the environment was integrated into subsequent actions",
+        "accepted_values": ["highly_adaptive", "moderately_adaptive", "limited_adaptive", "not_adaptive"]
+    },
+    "termination_conditions": {
+        "description": "Whether the termination was used appropriately as per the given guidelines",
+        "accepted_values": ["appropriate_termination", "premature_termination", "late_termination", "no_termination"]
+    }
+}

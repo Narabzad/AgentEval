@@ -1,0 +1,390 @@
+[
+    {
+        "content": "Perform actions and interact with a household to solve a task. At the beginning of your interactions, you will be given the detailed description of the current environment and your goal to accomplish. For each of your turn, you should choose from two actions: \\\"THOUGHT\\\" or \\\"ACTION\\\". If you choose \\\"THOUGHT\\\", you should first think about the current condition and plan for your future actions, and then output your action in this turn. Your output must strictly follow this format:\\\"THOUGHT: your thoughts.\\n\\\" \\\"ACTION: your next action\\n\\\"; If you choose \\\"ACTION\\\", you should directly output the action in this turn. Your output must strictly follow this format:\\\"ACTION: your next action\\n\\\". After each of your turn, the environment will give you immediate feedback based on which you should plan your next few steps. if the envrionment output \\\"Nothing happened\\\", that means the previous action is invalid and you should try more options.\\n Reminder: \\n1. the action must be chosen from the given available actions. Any actions except provided available actions will be regarded as illegal.\\n2. Take the target household immediatly after you find it.\\n3. Reply 'TERMINATE' only under two circumstances: a). The task has given you clear instructions to return 'TERMINATE' b). The task seems insolvable.\\n Here are two examples.\nYou are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.\nYour task is to: put two cellphone in sofa.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The task is to put two cellphone in sofa, so i need to first find a cellphone and put it on sofa. First I need to find the first cellphone. A cellphone is more likely to appear in coffeetable (1), diningtable (1), sidetable (1-2), drawer (1-4), sofa (1), dresser (1), garbagecan (1). I can check one by one, starting with coffeetable 1.\nACTION: go to coffeetable 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the coffeetable 1, you see a box 1, a cellphone 3, and a plate 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take cellphone 3 from coffeetable 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the cellphone 3 from the coffeetable 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: go to sofa 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the sofa 1, you see a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put cellphone 3 in/on sofa 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You put the cellphone 3 in/on the sofa 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: Now I put the first cellphone in sofa. Next, I need to find the second cellphone. I have visited coffeetable (1), so the second cellphone is more likely to appear in diningtable (1), sidetable (1-2), drawer (1-4), sofa (1), dresser (1), garbagecan (1). I can check one by one, starting with coffeetable 1.\n ACTION: go to diningtable 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the diningtable 1, you see a cellphone 2, a keychain 2, a laptop 1, a statue 2, and a statue 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take cellphone 2 from diningtable 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the cellphone 2 from the diningtable 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: go to sofa 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "On the sofa 1, you see a cellphone 3, a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1.\n",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put cellphone 2 in/on sofa 1\n",
+        "role": "assistant"
+    },
+    {
+        "content": "You put the cellphone 2 in/on the sofa 1.\nTask success, now reply TERMINATE\n",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    },
+    {
+        "content": "You are in the middle of a room. Looking quickly around you, you see a armchair 2, a armchair 1, a bed 1, a countertop 1, a diningtable 1, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a laundryhamper 1, and a sidetable 1.\nYour task is to: put two creditcard in dresser.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: To solve the task, I need to find and take the first creditcard, then put it in dresser, then find and take the second creditcard, then put it in dresser. First I need to find the first creditcard. A creditcard is more likely to appear in drawer (1-2), coutertop (1), sidetable (1), diningtable (1), armchair (1-2), bed (1). I can check one by one, starting with drawer 1.\nACTION: go to drawer 1\n",
+        "role": "user"
+    },
+    {
+        "content": "The drawer 1 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open drawer 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the drawer 1. The drawer 1 is open. In it, you see a book 1, a cd 1, and a pen 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to drawer 2\n",
+        "role": "user"
+    },
+    {
+        "content": "The drawer 2 is closed.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: open drawer 2\n",
+        "role": "user"
+    },
+    {
+        "content": "You open the drawer 2. The drawer 2 is open. In it, you see nothing.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: go to countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a creditcard 2, a mirror 1, a pencil 2, and a pencil 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I find the first creditcard (2). Next, I need to take it. I can find the second creditcard (3) later in countertop 1.\nACTION: take creditcard 2 from countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You pick up the creditcard 2 from the countertop 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I take the first creditcard (2). Next, I need to put it in/on dresser 1.\nACTION: go to dresser 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the dresser 1, you see a mug 1, and a television 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: put creditcard 2 in/on dresser 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You put the creditcard 2 in/on the dresser 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I put the first creditcard in dresser. Next, I need to find the second creditcard. I can directly go to countertop 1.\nACTION: go to countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a mirror 1, a pencil 2, and a pencil 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I find the second creditcard (3). Next, I need to take it.\nACTION: take creditcard 3 from countertop 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You pick up the creditcard 3 from the countertop 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "THOUGHT: Now I take the second creditcard (3). Next, I need to put it in/on dresser 1.\nACTION: go to dresser 1\n",
+        "role": "user"
+    },
+    {
+        "content": "On the dresser 1, you see a creditcard 2, a mug 1, and a television 1.\n",
+        "role": "assistant"
+    },
+    {
+        "content": "ACTION: put creditcard 3 in/on dresser 1\n",
+        "role": "user"
+    },
+    {
+        "content": "You put the creditcard 3 in/on the dresser 1.\nTask success, now reply TERMINATE\n",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "Your task now begins. You are in the middle of a room. Looking quickly around you, you see a armchair 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a safe 1, a shelf 12, a shelf 11, a shelf 10, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 1, and a sofa 1.\nYour task is to: put two keychain in safe.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: To solve the task, I need to find and take the first keychain, then put it in safe, then find and take the second keychain, then put it in safe. First I need to find the first keychain. A keychain is more likely to appear in drawer (1-5), cabinet (1-4), sidetable (1), dresser (1), sofa (1), shelf (1-12). I can check one by one, starting with drawer 1.\nACTION: go to drawer 1",
+        "role": "assistant"
+    },
+    {
+        "content": "The drawer 1 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open drawer 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the drawer 1. The drawer 1 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The first drawer is empty. I need to check other drawers.\nACTION: go to drawer 2",
+        "role": "assistant"
+    },
+    {
+        "content": "The drawer 2 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open drawer 2",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the drawer 2. The drawer 2 is open. In it, you see a creditcard 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I found a creditcard in drawer 2, but it is not what I am looking for. I need to check other drawers.\nACTION: go to drawer 3",
+        "role": "assistant"
+    },
+    {
+        "content": "The drawer 3 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open drawer 3",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the drawer 3. The drawer 3 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The third drawer is empty. I need to check other drawers.\nACTION: go to drawer 4",
+        "role": "assistant"
+    },
+    {
+        "content": "The drawer 4 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open drawer 4",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the drawer 4. The drawer 4 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The fourth drawer is empty. I need to check other drawers.\nACTION: go to drawer 5",
+        "role": "assistant"
+    },
+    {
+        "content": "The drawer 5 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open drawer 5",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the drawer 5. The drawer 5 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The fifth drawer is empty. I need to check other places.\nACTION: go to cabinet 1",
+        "role": "assistant"
+    },
+    {
+        "content": "The cabinet 1 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open cabinet 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the cabinet 1. The cabinet 1 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The first cabinet is empty. I need to check other cabinets.\nACTION: go to cabinet 2",
+        "role": "assistant"
+    },
+    {
+        "content": "The cabinet 3 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open cabinet 3",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the cabinet 3. The cabinet 3 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The third cabinet is empty. I need to check other cabinets.\nACTION: go to cabinet 4",
+        "role": "assistant"
+    },
+    {
+        "content": "The cabinet 1 is open. In it, you see nothing.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: The fourth cabinet is empty. I need to check other places.\nACTION: go to sidetable 1",
+        "role": "assistant"
+    },
+    {
+        "content": "On the sidetable 1, you see a keychain 1, and a watch 1.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take keychain 1 from sidetable 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the keychain 1 from the sidetable 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I found the first keychain. Next, I need to put it in safe. I need to find the safe first.\nACTION: go to safe 1",
+        "role": "assistant"
+    },
+    {
+        "content": "The safe 1 is closed.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: open safe 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You open the safe 1. The safe 1 is open. In it, you see a watch 3, and a watch 2.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I found the safe. Now I need to put the first keychain in safe.\nACTION: put keychain 1 in/on safe 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You put the keychain 1 in/on the safe 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I put the first keychain in safe. Now I need to find the second keychain. I can check other places.\nACTION: go to sofa 1",
+        "role": "assistant"
+    },
+    {
+        "content": "On the sofa 1, you see a box 1, a keychain 2, and a remotecontrol 1.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: take keychain 2 from sofa 1",
+        "role": "assistant"
+    },
+    {
+        "content": "You pick up the keychain 2 from the sofa 1.",
+        "role": "user"
+    },
+    {
+        "content": "THOUGHT: I found the second keychain. Next, I need to put it in safe.\nACTION: go to safe 1",
+        "role": "assistant"
+    },
+    {
+        "content": "The safe 1 is open. In it, you see a keychain 1, a watch 3, and a watch 2.",
+        "role": "user"
+    },
+    {
+        "content": "ACTION: put keychain 2 in/on safe 1",
+        "role": "assistant"
+    },
+    {
+        "content": "Task success, now reply TERMINATE\n",
+        "role": "user"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "assistant"
+    },
+    {
+        "content": "TERMINATE",
+        "role": "user"
+    }
+]

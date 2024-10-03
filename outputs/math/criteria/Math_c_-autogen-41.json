@@ -1,0 +1,22 @@
+{
+    "accuracy": {
+        "description": "The correctness of the solution to the math problem",
+        "accepted_values": ["0% - Incorrect", "50% - Partially correct", "100% - Correct"]
+    },
+    "conciseness": {
+        "description": "The simplicity and directness of the solution, avoiding unnecessary steps",
+        "accepted_values": ["1 - Very concise", "2 - Moderately concise", "3 - Not concise"]
+    },
+    "clarity": {
+        "description": "The ease of understanding the solution and the explanation of each step",
+        "accepted_values": ["1 - Very clear", "2 - Moderately clear", "3 - Not clear"]
+    },
+    "notation": {
+        "description": "The proper and consistent use of mathematical notation in the solution",
+        "accepted_values": ["1 - Very good notation", "2 - Acceptable notation", "3 - Poor notation"]
+    },
+    "step_validity": {
+        "description": "The correctness and logic behind each step in the solution",
+        "accepted_values": ["1 - All steps are valid", "2 - Some steps are invalid", "3 - Majority of steps are invalid"]
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "How well the task is performed and completed",
+    "accepted_values": ["not_started", "partially_completed", "completed"]
+  },
+  "planning_quality": {
+    "description": "The effectiveness of the plans and thoughts made to accomplish the task",
+    "accepted_values": ["poor", "average", "good", "excellent"]
+  },
+  "actions_efficiency": {
+    "description": "How efficiently the chosen actions are in solving the task",
+    "accepted_values": ["inefficient", "moderately_efficient", "efficient", "highly_efficient"]
+  },
+  "valid_actions": {
+    "description": "The degree to which actions are chosen from the given available actions",
+    "accepted_values": ["no_valid_actions", "few_valid_actions", "mostly_valid_actions", "all_valid_actions"]
+  },
+  "instructions_following": {
+    "description": "How well the task instructions and format are followed",
+    "accepted_values": ["not_followed", "partially_followed", "mostly_followed", "completely_followed"]
+  },
+  "env_feedback_usage": {
+    "description": "How effectively the immediate environment feedback is used for planning the next steps",
+    "accepted_values": ["ineffective", "moderately_effective", "effective", "highly_effective"]
+  },
+  "appropriate_termination": {
+    "description": "How appropriately the task terminates",
+    "accepted_values": ["inappropriate", "appropriate"]
+  }
+}

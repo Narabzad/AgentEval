@@ -1,0 +1,26 @@
+{
+  "Task_Completion": {
+    "description": "Whether the task was successfully completed or not",
+    "accepted_values": ["Task Success", "Task Failure", "Task Not Completed"]
+  },
+  "Actions_Count": {
+    "description": "Total number of actions performed during the task",
+    "accepted_values": ["range: 1-inf"]
+  },
+  "Valid_Actions": {
+    "description": "The proportion of valid actions performed during the task",
+    "accepted_values": ["range: 0-1"]
+  },
+  "Target_Identification": {
+    "description": "Accuracy of identifying essential objects related to the task",
+    "accepted_values": ["range: 0-1"]
+  },
+  "THOUGHT_Efficiency": {
+    "description": "Clear thinking and planning of actions before performing them",
+    "accepted_values": ["Excellent", "Good", "Average", "Poor"]
+  },
+  "Environment_Interaction": {
+    "description": "How well the agent interacts with the environment based on feedback",
+    "accepted_values": ["Excellent", "Good", "Average", "Poor"]
+  }
+}

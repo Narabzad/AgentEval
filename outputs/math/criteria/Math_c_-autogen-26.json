@@ -1,0 +1,22 @@
+{
+    "accuracy": {
+        "description": "The correctness of the solution provided for the math problem.",
+        "accepted_values": ["incorrect", "partially_correct", "correct"]
+    },
+    "completeness": {
+        "description": "The extent to which the solution covers all necessary steps and details.",
+        "accepted_values": ["incomplete", "mostly_complete", "complete"]
+    },
+    "clarity": {
+        "description": "How well the solution is explained and easy to understand.",
+        "accepted_values": ["confusing", "somewhat_clear", "very_clear"]
+    },
+    "presentation": {
+        "description": "The organization and presentation of the solution, including proper use of notation, symbols, and formatting.",
+        "accepted_values": ["poor", "fair", "excellent"]
+    },
+    "efficiency": {
+        "description": "The conciseness of the solution and the use of the most efficient method to solve the problem.",
+        "accepted_values": ["inefficient", "moderately_efficient", "highly_efficient"]
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "The ability to complete the assigned task",
+    "accepted_values": ["completed", "partially_completed", "not_completed"]
+  },
+  "action_legality": {
+    "description": "Choosing actions from the given available actions",
+    "accepted_values": ["all_legal", "some_illegal", "all_illegal"]
+  },
+  "action_sequence": {
+    "description": "Correct and effective order of actions performed",
+    "accepted_values": ["efficient", "average", "inefficient"]
+  },
+  "thought_process": {
+    "description": "Clear and thorough thinking in planning future actions",
+    "accepted_values": ["thorough", "moderate", "lacking"]
+  },
+  "problem_solving": {
+    "description": "The ability to deduce the steps needed to achieve the goal",
+    "accepted_values": ["strong", "fair", "weak"]
+  },
+  "environment_feedback": {
+    "description": "The ability to adjust actions based on the environment's feedback",
+    "accepted_values": ["responsive", "partly_responsive", "unresponsive"]
+  },
+  "terminate_usage": {
+    "description": "Correct response with 'TERMINATE' at the appropriate time",
+    "accepted_values": ["valid_termination", "invalid_termination", "no_termination"]
+  }
+}

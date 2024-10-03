@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "Whether the task was successfully completed or not",
+    "accepted_values": ["success", "partial", "failure", "insolvable"]
+  },
+  "valid_actions": {
+    "description": "The number of valid actions performed during the task",
+    "accepted_values": ["all", "1_invalid", "2_invalid", "3_or_more_invalid"]
+  },
+  "used_THOUGHT_ACTION": {
+    "description": "How well the THOUGHT and ACTION pattern was used during the task",
+    "accepted_values": ["appropriate_use", "occasionally_skipped", "never_used", "overused"]
+  },
+  "environment_feedback": {
+    "description": "How well the player adapted to the environment feedback and made adjustments",
+    "accepted_values": ["excellent", "good", "moderate", "poor"]
+  },
+  "systematic_search": {
+    "description": "How systematically the player searched for items and target locations",
+    "accepted_values": ["excellent", "good", "moderate", "poor"]
+  },
+  "target_handling": {
+    "description": "How well the player followed instructions for handling the target household",
+    "accepted_values": ["excellent", "good", "moderate", "poor"]
+  },
+  "task_termination": {
+    "description": "How appropriately the player terminated the task when required",
+    "accepted_values": ["appropriate", "premature", "late", "never"]
+  }
+}

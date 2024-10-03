@@ -1,0 +1,30 @@
+{
+  "problem_understanding": {
+    "description": "Understanding of the given task and environment, and ability to interpret the goal",
+    "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  },
+  "planning": {
+    "description": "Ability to plan actions and thoughts before executing them",
+    "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  },
+  "adaptability": {
+    "description": "Ability to adapt and change plans based on immediate feedback from the environment",
+    "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  },
+  "action_sequence": {
+    "description": "Appropriateness and efficiency of the sequence of actions taken to accomplish the goal",
+    "accepted_values": ["Poor", "Fair", "Good", "Very Good", "Excellent"]
+  },
+  "action_format": {
+    "description": "Correctness of the format used in actions and thoughts, according to the given instructions",
+    "accepted_values": ["Incorrect", "Partially Correct", "Correct"]
+  },
+  "illegal_actions": {
+    "description": "Usage of illegal actions not provided among available actions or not following the environment rules",
+    "accepted_values": ["None", "Few", "Many"]
+  },
+  "termination_decision": {
+    "description": "The appropriateness of deciding to terminate the task, based on the given instructions and task completion",
+    "accepted_values": ["Incorrect", "Correct"]
+  }
+}

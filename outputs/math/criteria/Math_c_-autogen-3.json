@@ -1,0 +1,22 @@
+{
+    "accuracy": {
+        "description": "The extent to which the solution provided is correct.",
+        "accepted_values": ["completely incorrect", "partially correct", "mostly correct", "completely correct"]
+    },
+    "clarity": {
+        "description": "The degree to which the solution is presented in a clear and understandable manner.",
+        "accepted_values": ["very unclear", "somewhat unclear", "clear", "very clear"]
+    },
+    "completeness": {
+        "description": "The degree to which the solution covers all necessary aspects of the problem.",
+        "accepted_values": ["incomplete", "moderately complete", "mostly complete", "complete"]
+    },
+    "efficiency": {
+        "description": "The degree to which the solution is optimized and uses the most suitable approach.",
+        "accepted_values": ["inefficient", "moderately efficient", "efficient", "highly efficient"]
+    },
+    "response_time": {
+        "description": "The time taken by the system to provide an appropriate solution.",
+        "accepted_values": ["very slow", "slow", "average", "fast", "very fast"]
+    }
+}

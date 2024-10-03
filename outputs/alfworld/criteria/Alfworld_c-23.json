@@ -1,0 +1,22 @@
+{
+  "task_completion": {
+    "description": "The rate at which the household task is successfully completed.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "valid_actions": {
+    "description": "The percentage of valid actions taken during the task.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  },
+  "planning_efficiency": {
+    "description": "How efficient the thought process is for planning future actions.",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "environment_interaction": {
+    "description": "The ability to respond appropriately to the environment's feedback.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "format_adherence": {
+    "description": "The extent to which the given output format is strictly followed.",
+    "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+  }
+}

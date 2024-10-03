@@ -1,0 +1,22 @@
+{
+    "accuracy": {
+        "description": "The accuracy of the solution, considering whether the solution is mathematically correct and complete.",
+        "accepted_values": ["Incorrect", "Partially correct", "Mostly correct", "Correct"]
+    },
+    "conciseness": {
+        "description": "Assessing how concisely the solution is presented, avoiding unnecessary explanation or complexity.",
+        "accepted_values": ["Not concise", "Somewhat concise", "Concise", "Very concise"]
+    },
+    "clarity": {
+        "description": "Evaluating how clearly the solution's steps and explanations are presented.",
+        "accepted_values": ["Not clear", "Somewhat clear", "Clear", "Very clear"]
+    },
+    "efficiency": {
+        "description": "Assessing the efficiency of the algorithm or approach used to solve the problem.",
+        "accepted_values": ["Inefficient", "Somewhat efficient", "Efficient", "Highly efficient"]
+    },
+    "structuring": {
+        "description": "Evaluating how well-structured and organized the solution is.",
+        "accepted_values": ["Not structured", "Somewhat structured", "Structured", "Very structured"]
+    }
+}

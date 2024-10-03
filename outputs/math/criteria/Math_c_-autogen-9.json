@@ -1,0 +1,26 @@
+{
+  "accuracy": {
+    "description": "The correctness of the solution provided by the system.",
+    "accepted_values": ["Incorrect", "Partially correct", "Correct"]
+  },
+  "conciseness": {
+    "description": "The extent to which the provided solution is concise and free of unnecessary information.",
+    "accepted_values": ["Verbose", "Adequately concise", "Highly concise"]
+  },
+  "stepwise_clarity": {
+    "description": "How easy it is to understand the solution steps provided by the system.",
+    "accepted_values": ["Confusing", "Somewhat clear", "Very clear"]
+  },
+  "proper_methodology": {
+    "description": "The appropriateness of the methods and techniques used to solve the problem.",
+    "accepted_values": ["Inappropriate", "Partially appropriate", "Appropriate"]
+  },
+  "generalization": {
+    "description": "How well the provided solution can be generalized to solve similar problems.",
+    "accepted_values": ["Non-generalizable", "Partially generalizable", "Highly generalizable"]
+  },
+  "time_efficiency": {
+    "description": "The time taken by the system to provide a solution.",
+    "accepted_values": ["Slow", "Moderate", "Fast"]
+  }
+}

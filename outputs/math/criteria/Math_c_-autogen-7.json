@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "Correctness of the solution provided, comparing it to the expected answer.",
+    "accepted_values": ["completely_wrong", "partially_correct", "completely_correct"]
+  },
+  "conciseness": {
+    "description": "The brevity of the solution, focusing on whether the steps are clear and concise, without unnecessary information or calculations.",
+    "accepted_values": ["too_verbose", "adequately_concise", "somewhat_concise", "extremely_concise"]
+  },
+  "step_clarity": {
+    "description": "How clear and well-explained each step of the solution is.",
+    "accepted_values": ["unclear_steps", "mostly_clear_steps", "clear_steps", "very_clear_steps"]
+  },
+  "notation": {
+    "description": "Appropriate usage of mathematical notation, including symbols and expressions.",
+    "accepted_values": ["incorrect_notation", "mostly_correct_notation", "correct_notation", "excellent_notation"]
+  },
+  "response_time": {
+    "description": "Time taken to provide the solution from the initial problem input.",
+    "accepted_values": ["within_15_seconds", "within_30_seconds", "within_1_minute", "within_2_minutes", "within_5_minutes", "longer_than_5_minutes"]
+  }
+}

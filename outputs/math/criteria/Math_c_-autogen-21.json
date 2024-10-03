@@ -1,0 +1,18 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution",
+    "accepted_values": ["correct", "partially_correct", "incorrect"]
+  },
+  "clarity": {
+    "description": "The clarity and coherence of the solution",
+    "accepted_values": ["very_clear", "clear", "unclear", "very_unclear"]
+  },
+  "efficiency": {
+    "description": "The efficiency of the solution in terms of steps taken",
+    "accepted_values": ["very_efficient", "efficient", "inefficient", "very_inefficient"]
+  },
+  "presentation": {
+    "description": "How well the solution is presented, including formatting and notation",
+    "accepted_values": ["well_presented", "acceptable", "poor_presentation", "very_poor_presentation"]
+  }
+}

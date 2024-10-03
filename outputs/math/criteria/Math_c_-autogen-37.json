@@ -1,0 +1,26 @@
+{
+  "accuracy": {
+    "description": "The accuracy of the solution provided by the system",
+    "accepted_values": ["Correct", "Partially Correct", "Incorrect"]
+  },
+  "completeness": {
+    "description": "The completeness of the explanation",
+    "accepted_values": ["Fully Explained", "Partially Explained", "Unexplained"]
+  },
+  "clarity": {
+    "description": "The clarity of the explanation provided",
+    "accepted_values": ["Clear", "Somewhat Clear", "Unclear"]
+  },
+  "conciseness": {
+    "description": "The conciseness of the solution",
+    "accepted_values": ["Concise", "Somewhat Concise", "Not Concise"]
+  },
+  "use_of_methods": {
+    "description": "The appropriate use and application of mathematical methods",
+    "accepted_values": ["Appropriate", "Partially Appropriate", "Inappropriate"]
+  },
+  "response_time": {
+    "description": "The time taken to provide a solution",
+    "accepted_values": ["Fast", "Moderate", "Slow"]
+  }
+}

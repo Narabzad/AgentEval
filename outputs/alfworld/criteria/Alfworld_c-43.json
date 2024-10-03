@@ -1,0 +1,34 @@
+{
+  "Completeness": {
+    "description": "How well the task is performed and its objective is achieved",
+    "accepted_values": ["not_started", "partially_completed", "fully_completed"]
+  },
+  "Efficiency": {
+    "description": "The effectiveness of each action taken to solve and achieve the task's goal",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "Problem_solviing": {
+    "description": "The ability to think, plan, and make decisions while solving the task",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "Action_Sequence": {
+    "description": "The logical order of actions taken while solving the task",
+    "accepted_values": ["unordered", "partially_ordered", "ordered"]
+  },
+  "Adherence_to_Format": {
+    "description": "Strictly following the format for thought and action outputs",
+    "accepted_values": ["noncompliant", "partially_compliant", "fully_compliant"]
+  },
+  "Contingency_planning": {
+    "description": "Adjusting actions based on the environment's feedback",
+    "accepted_values": ["none", "moderate", "strong"]
+  },
+  "Valid_action_selection": {
+    "description": "Choosing actions only from the given available actions",
+    "accepted_values": ["invalid", "mostly_valid", "valid"]
+  },
+  "Termination_use": {
+    "description": "Using the TERMINATE command only under appropriate circumstances",
+    "accepted_values": ["inappropriate", "mostly_appropriate", "appropriate"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task_completion": {
+    "description": "The task is completed successfully.",
+    "accepted_values": ["incomplete", "partially_complete", "complete"]
+  },
+  "steps_efficiency": {
+    "description": "The number of steps taken to complete the task, relative to the minimum number of steps needed.",
+    "accepted_values": ["optimal", "moderately_efficient", "inefficient"]
+  },
+  "action_legal": {
+    "description": "The legality of the actions performed in the task.",
+    "accepted_values": ["all_legal", "minor_illegal", "major_illegal"]
+  },
+  "thought_clarity": {
+    "description": "The clarity and relevance of the thoughts to the task.",
+    "accepted_values": ["excellent", "good", "acceptable", "poor"]
+  },
+  "action_format": {
+    "description": "The correct formatting of actions and thoughts in the output.",
+    "accepted_values": ["correct", "minor_errors", "major_errors"]
+  },
+  "solution_quality": {
+    "description": "The overall quality of the solution to the task.",
+    "accepted_values": ["excellent", "good", "acceptable", "poor"]
+  }
+}

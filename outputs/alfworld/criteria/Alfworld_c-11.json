@@ -1,0 +1,26 @@
+{
+    "task_completion": {
+        "description": "Whether the task is accomplished or not.",
+        "accepted_values": ["failed", "completed", "insolvable"]
+    },
+    "total_moves": {
+        "description": "The number of moves taken to complete the task, where fewer moves imply more efficient performance.",
+        "accepted_values": list(range(1, 101))
+    },
+    "valid_actions": {
+        "description": "The proportion of valid actions out of the total actions taken, higher proportions indicate better understanding of the environment.",
+        "accepted_values": [round(i * 0.1, 1) for i in range(0, 11)]
+    },
+    "thought_action_balance": {
+        "description": "The balance between THOUGHT and ACTION steps, where an ideal balance shows effective planning and execution.",
+        "accepted_values": [round(i * 0.1, 1) for i in range(0, 11)]
+    },
+    "timeliness": {
+        "description": "The speed at which the task is completed, faster completion times indicate better performance.",
+        "accepted_values": ["slow", "medium", "fast", "very_fast"]
+    },
+    "termination_circumstance": {
+        "description": "The reason behind choosing to terminate, shouldBe one of the two acceptable conditions as mentioned in the instructions.",
+        "accepted_values": ["task_completed", "insolvable"]
+    }
+}

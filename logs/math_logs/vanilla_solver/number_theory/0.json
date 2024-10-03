@@ -1,0 +1,13 @@
+{
+  "problem": "What is the sum of all the distinct positive two-digit factors of 144?",
+  "level": "Level 5",
+  "type": "Number Theory",
+  "solution": "Prime factorize $144=2^4\\cdot3^2$. The sum of the positive two-digit factors of 144 is $2^4+2\\cdot3^2+2^2\\cdot3+2^2\\cdot3^2+2^3\\cdot3+2^3\\cdot3^2+2^4\\cdot3=\\boxed{226}.$",
+  "correct_ans": "226",
+  "problem_id": "0",
+  "response_with_ans": "The two-digit factors of 144 are 12, 24, 36, 48, 72.\n\nThe sum of these numbers is 12 + 24 + 36 + 48 + 72 = 192.",
+  "time": 2.886955499649048,
+  "check_result": "1. the answer extracted from the reply is: 192.\n\n2. checking if the answer matches the ground truth answer: 192 does not match 226. it seems that the answer in the reply miscalculated the sum of the two-digit factors of 144.\n\n3. \"the answer is incorrect. correct answer: 226 | answer extracted: 192.\"",
+  "is_correct": false,
+  "trial": -1
+}

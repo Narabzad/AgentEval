@@ -1,0 +1,7 @@
+{
+  "accuracy": {"description": "The accuracy of the solution", "accepted_values": ["correct", "incorrect"]},
+  "completeness": {"description": "The completeness of the solution", "accepted_values": ["complete", "incomplete"]},
+  "level_of_explanation": {"description": "The level of explanation provided", "accepted_values": ["high", "medium", "low"]},
+  "time_efficiency": {"description": "The time efficiency of solving the problem", "accepted_values": ["fast", "moderate", "slow"]},
+  "notation_quality": {"description": "The quality of mathematical notation used", "accepted_values": ["clear", "adequate", "confusing"]}
+}

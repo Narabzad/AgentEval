@@ -1,0 +1,30 @@
+{
+    "task_completion": {
+        "description": "The degree to which the task is completed successfully",
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    },
+    "action_legality": {
+        "description": "Actions must be chosen from the given available actions, with illegitimate actions taken into account",
+        "accepted_values": ["all_legal", "one_illegal", "two_illegal", "three_illegal", "four_or_more_illegal"]
+    },
+    "action_adequacy": {
+        "description": "The appropriateness of chosen actions to achieve the given task",
+        "accepted_values": ["excellent", "good", "fair", "poor", "very_poor"]
+    },
+    "thought_process": {
+        "description": "The quality of the thought process and planning throughout the task",
+        "accepted_values": ["excellent", "good", "fair", "poor", "very_poor"]
+    },
+    "interaction_flow": {
+        "description": "The smoothness and continuity of interactions with the environment",
+        "accepted_values": ["smooth", "some_disruptions", "frequent_disruptions", "very_disrupted", "chaotic"]
+    },
+    "task_time": {
+        "description": "The time taken to accomplish the task",
+        "accepted_values": ["very_fast", "fast", "average", "slow", "very_slow"]
+    },
+    "terminate_criteria": {
+        "description": "Correctly identifying when to reply 'TERMINATE'",
+        "accepted_values": ["appropriate", "premature", "late", "never_terminated", "incorrectly_terminated"]
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Accuracy": {
+    "description": "The solution provided must accurately solve the given math problem and provide the correct final answer.",
+    "accepted_values": ["Correct", "Partially correct", "Incorrect"]
+  },
+  "Clarity": {
+    "description": "The solution should be clear and well-organized, using proper mathematical notation and language.",
+    "accepted_values": ["Highly clear", "Moderately clear", "Unclear"]
+  },
+  "Completeness": {
+    "description": "The solution should include all necessary steps and explain the reasoning behind each step.",
+    "accepted_values": ["Complete", "Partially complete", "Incomplete"]
+  },
+  "Efficiency": {
+    "description": "The solution should use an efficient and concise approach to solve the problem.",
+    "accepted_values": ["Highly efficient", "Moderately efficient", "Inefficient"]
+  },
+  "Relevance": {
+    "description": "The solution should focus on solving the given problem and avoid irrelevant information or steps.",
+    "accepted_values": ["Highly relevant", "Moderately relevant", "Irrelevant"]
+  }
+}

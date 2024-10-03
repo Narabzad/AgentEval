@@ -1,0 +1,26 @@
+{
+  "task_completion": {
+    "description": "The task is completed successfully by solving the goal.",
+    "accepted_values": ["not completed", "partially completed", "completed"]
+  },
+  "task_progress": {
+    "description": "Number of correct actions taken towards task completion.",
+    "accepted_values": ["none", "few", "some", "most", "all"]
+  },
+  "invalid_actions": {
+    "description": "Number of invalid actions performed during the task.",
+    "accepted_values": ["none", "few", "some", "many"]
+  },
+  "strategy_consistency": {
+    "description": "The consistency of strategy followed during the task.",
+    "accepted_values": ["not consistent", "partially consistent", "consistent"]
+  },
+  "thought_process": {
+    "description": "The thought process employed during the task is logical and effective.",
+    "accepted_values": ["not logical", "partially logical", "logical"]
+  },
+  "adaptability": {
+    "description": "Adaptability to the changing environment and feedback.",
+    "accepted_values": ["not adaptable", "partially adaptable", "adaptable"]
+  }
+}

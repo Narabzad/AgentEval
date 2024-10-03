@@ -1,0 +1,22 @@
+{
+    "goal_completion": {
+        "description": "Whether the task of cooling the pan and placing it on the stoveburner was accomplished within the provided instructions",
+        "accepted_values": ["Not completed", "Partially completed", "Completed"]
+    },
+    "valid_actions": {
+        "description": "The number of valid actions chosen from the available options",
+        "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+    },
+    "thoughtful_steps": {
+        "description": "How well the participant thought through the current condition and future actions before making a decision",
+        "accepted_values": ["0-25%", "26-50%", "51-75%", "76-100%"]
+    },
+    "termination_conditions": {
+        "description": "The proper usage of 'TERMINATE' in accordance with the provided guidelines",
+        "accepted_values": ["Incorrectly used", "Correctly used", "Did not use"]
+    },
+    "environment_interaction": {
+        "description": "How well the participant used the environment's immediate feedback to adjust their subsequent actions",
+        "accepted_values": ["Poor adaptation", "Moderate adaptation", "Good adaptation", "Excellent adaptation"]
+    }
+}

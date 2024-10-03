@@ -1,0 +1,30 @@
+{
+  "environment_understanding": {
+    "description": "The ability to understand the provided environment description and identify relevant objects.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "action_selection": {
+    "description": "The ability to select a valid action from the given available actions.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "planning_capability": {
+    "description": "The ability to plan future actions based on the current condition and environment feedback.",
+    "accepted_values": ["poor", "fair", "good", "excellent"]
+  },
+  "task_accomplishment": {
+    "description": "The ability to accomplish the assigned task within the environment.",
+    "accepted_values": ["not_attempted", "failed", "partial_success", "success"]
+  },
+  "efficient_solution": {
+    "description": "The ability to solve the task in an efficient manner, using minimal unnecessary actions.",
+    "accepted_values": ["inefficient", "moderately_efficient", "efficient", "highly_efficient"]
+  },
+  "format_adherence": {
+    "description": "The ability to strictly follow the output format for THOUGHT and ACTION.",
+    "accepted_values": ["not_adhered", "partially_adhered", "mostly_adhered", "strictly_adhered"]
+  },
+  "terminating_condition": {
+    "description": "The ability to terminate the interaction with the environment only when appropriate based on task instructions.",
+    "accepted_values": ["incorrect", "uncertain", "appropriate", "optimal"]
+  }
+}

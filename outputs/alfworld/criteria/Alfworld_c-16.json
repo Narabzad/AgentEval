@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "Whether the task was completed successfully or not",
+    "accepted_values": ["success", "failure", "insolvable"]
+  },
+  "valid_actions": {
+    "description": "Number of valid actions taken in a given task",
+    "accepted_values": list(range(0, 100)),
+  },
+  "invalid_actions": {
+    "description": "Number of invalid actions taken in a given task",
+    "accepted_values": list(range(0, 100))
+  },
+  "required_steps": {
+    "description": "Number of steps taken to successfully complete the task",
+    "accepted_values": list(range(0, 100))
+  },
+  "thoughtfulness": {
+    "description": "Level of thoughtfulness in planning each action",
+    "accepted_values": ["none", "low", "medium", "high"],
+  },
+  "termination_reasoning": {
+    "description": "Reason for choosing to TERMINATE the task",
+    "accepted_values": ["Task success", "Task insolvable"]
+  },
+  "efficiency": {
+    "description": "Efficiency in completing the task (low number of unnecessary actions)",
+    "accepted_values": ["none", "low", "medium", "high"]
+  }
+}

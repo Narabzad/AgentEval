@@ -1,0 +1,22 @@
+{
+    "task_completion": {
+        "description": "How well the provided action sequence accomplishes the task goal.",
+        "accepted_values": ["Not attempted", "Partially complete", "Fully complete"]
+    },
+    "action_validity": {
+        "description": "The correctness and validity of chosen actions according to the given environment and available actions.",
+        "accepted_values": ["Valid action", "Invalid action", "Illegal action"]
+    },
+    "action_sequence_efficiency": {
+        "description": "The efficiency of the action sequence in terms of minimizing the number of steps needed to achieve the goal.",
+        "accepted_values": ["Highly efficient", "Moderately efficient", "Inefficient"]
+    },
+    "response_format": {
+        "description": "The correctness of the output format following the strict guidelines provided in the task description.",
+        "accepted_values": ["Correct format", "Minor format issue", "Incorrect format"]
+    },
+    "termination_timing": {
+        "description": "How appropriate the decision to terminate is, based on the task completion status and instruction provided.",
+        "accepted_values": ["Appropriate termination", "Premature termination", "Delayed termination"]
+    }
+}

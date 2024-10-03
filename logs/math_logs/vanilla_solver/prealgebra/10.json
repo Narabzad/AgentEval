@@ -1,0 +1,13 @@
+{
+  "problem": "How many integers $n$ satisfy both of the inequalities $4n + 3 < 25$ and $-7n + 5 < 24$?",
+  "level": "Level 5",
+  "type": "Prealgebra",
+  "solution": "Subtract 3 and divide by 4 on both sides of the first inequality to obtain \\begin{align*}\n4n + 3 &< 25 \\\\\n\\Rightarrow\\qquad 4n &< 22 \\\\\n\\Rightarrow\\qquad n &< 5.5.\n\\end{align*}Similarly, the second inequality yields \\begin{align*}\n-7n + 5 &< 24 \\\\\n\\Rightarrow\\qquad -7n &< 19 \\\\\n\\Rightarrow\\qquad n &> -\\frac{19}{7}.\n\\end{align*}Therefore, we are looking for all the integers between $-\\frac{19}{7}$ and $5.5$. Since $-\\frac{19}{7}$ is between $-3$ and $-2$ and the largest integer less than $5.5$ is 5, we need to count the number of integers between $-2$ and $5$, inclusive. There are $5$ positive integers, $2$ negative integers, and zero, so there are $\\boxed{8}$ integers that satisfy both $4n + 3 < 25$ and $-7n + 5 < 24$.",
+  "correct_ans": "8",
+  "problem_id": "10",
+  "response_with_ans": "First, let's solve each inequality step by step.\n\nFor $4n + 3 < 25$, we need to isolate $n$:\n\nSubtract $3$ from both sides: \n\n$4n < 25 - 3 = 22$\n\nThen divide both sides by $4$:\n\n$n < \\frac{22}{4} = 5.5$\n\nFor $-7n + 5 < 24$, we also need to isolate $n$:\n\nSubtract $5$ from both sides:\n\n$-7n < 24 - 5 = 19$\n\nThen divide both sides by $-7$ (and remember to flip the inequality because we're dividing by a negative number):\n\n$n > \\frac{19}{-7} = -2.\\overline{714285}$, which is about $-2.71 \\cdots$\n\nFor $-2.\\overline{714285} < n < 5.5$, we need to find all integers $n$:\n\nThey are $-2, -1, 0, 1, 2, 3, 4, 5$.\n\nSo there are a total of $8$ integers $n$ that satisfy both inequalities.",
+  "time": 9.244852542877197,
+  "check_result": "the answer extracted from the reply is: \"8\".\n\nthe ground truth answer is also \"8\".\n\ntherefore, the answer given in the reply matches the ground truth answer.\n\nthe answer is correct.",
+  "is_correct": true,
+  "trial": -1
+}

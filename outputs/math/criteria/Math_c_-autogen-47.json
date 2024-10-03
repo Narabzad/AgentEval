@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "How accurately the math problem is solved",
+    "accepted_values": ["incorrect", "partially correct", "correct"]
+  },
+  "conciseness": {
+    "description": "How concise the solution is presented",
+    "accepted_values": ["verbose", "adequate", "concise"]
+  },
+  "steps": {
+    "description": "The steps provided in the solution are logical and clear",
+    "accepted_values": ["unclear", "somewhat clear", "clear"]
+  },
+  "notations": {
+    "description": "The notations used in the problem solution are appropriate and consistent",
+    "accepted_values": ["inconsistent", "mostly consistent", "consistent"]
+  },
+  "completeness": {
+    "description": "The completeness of the solution, covering all aspects of the problem",
+    "accepted_values": ["incomplete", "mostly complete", "complete"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "task_completion": {
+    "description": "Whether the task is successfully completed or not",
+    "accepted_values": ["incomplete", "partial", "complete"]
+  },
+  "action_accuracy": {
+    "description": "The accuracy of actions taken according to the task description and environment",
+    "accepted_values": ["low", "medium", "high"]
+  },
+  "action_sequence_efficiency": {
+    "description": "Efficiency of the sequence of actions taken to accomplish the task",
+    "accepted_values": ["inefficient", "moderately efficient", "efficient"]
+  },
+  "thought_process_quality": {
+    "description": "Quality of the thought process behind actions performed",
+    "accepted_values": ["poor", "good", "excellent"]
+  },
+  "interaction_format": {
+    "description": "Proper formatting and structure of responses",
+    "accepted_values": ["incorrect", "partially correct", "correct"]
+  },
+  "illegality": {
+    "description": "Number of illegal actions performed throughout the task",
+    "accepted_values": ["none", "few", "several"]
+  },
+  "adherence_to_instructions": {
+    "description": "How well the player followed task instructions and reminders",
+    "accepted_values": ["low", "medium", "high"]
+  }
+}

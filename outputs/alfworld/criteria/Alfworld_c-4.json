@@ -1,0 +1,22 @@
+{
+    "task_completion": {
+        "description": "Completeness of the given task, including all subtasks in the right order", 
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    }, 
+    "action_validity": {
+        "description": "The validity of the actions chosen given the available options", 
+        "accepted_values": ["0%", "25%", "50%", "75%", "100%"]
+    }, 
+    "thought_accuracy": {
+        "description": "Accuracy of the thoughts in guiding and planning the agent's actions towards accomplishing the task", 
+        "accepted_values": ["poor", "fair", "good", "excellent"]
+    }, 
+    "efficiency": {
+        "description": "The efficiency of the actions taken to complete the task, minimizing the number of turns", 
+        "accepted_values": ["very inefficient", "inefficient", "moderate", "efficient", "very efficient"]
+    }, 
+    "compliance_with_instructions": {
+        "description": "Adherence to specific rules and instructions such as reply formatting and termination conditions", 
+        "accepted_values": ["non-compliant", "partially compliant", "compliant"]
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "task_completion": {
+    "description": "Measures if the given task was successfully completed or not",
+    "accepted_values": ["success", "partially_completed", "failed"]
+  },
+  "efficiency": {
+    "description": "Assesses the number of steps taken in comparison to the minimum possible steps required to complete the task",
+    "accepted_values": ["optimal", "near_optimal", "average", "below_average"]
+  },
+  "valid_actions": {
+    "description": "Evaluates the percentage of valid actions taken out of total actions",
+    "accepted_values": ["100%", "90-99%", "80-89%", "70-79%", "60-69%", "below_60%"]
+  },
+  "thought_actions": {
+    "description": "Assesses the relevance and usefulness of thought actions in planning and task execution",
+    "accepted_values": ["highly_relevant", "moderately_relevant", "somewhat_relevant", "not_relevant"]
+  },
+  "problem_solving": {
+    "description": "Measures the ability to quickly identify and adapt to changes in the environment during task execution",
+    "accepted_values": ["fast_adaptation", "moderate_adaptation", "slow_adaptation", "no_adaptation"]
+  },
+  "termination": {
+    "description": "Evaluates if 'TERMINATE' was correctly used according to the given instructions",
+    "accepted_values": ["appropriate", "premature", "late", "unnecessary"]
+  }
+}

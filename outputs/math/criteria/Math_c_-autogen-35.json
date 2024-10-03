@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The correctness of the solution provided by the system",
+    "accepted_values": ["completely_correct", "partially_correct", "incorrect"]
+  },
+  "clarity": {
+    "description": "The ability of the system to provide an understandable explanation for the solution",
+    "accepted_values": ["very_clear", "clear", "somewhat_clear", "unclear"]
+  },
+  "completeness": {
+    "description": "The thoroughness of the solution along with each step and intermediate calculations",
+    "accepted_values": ["complete", "mostly_complete", "incomplete", "very_incomplete"]
+  },
+  "efficiency": {
+    "description": "The conciseness and effectiveness of the solution in terms of computational steps",
+    "accepted_values": ["highly_efficient", "efficient", "inefficient", "highly_inefficient"]
+  },
+  "handling_constraints": {
+    "description": "The accuracy of the solution in addressing given constraints",
+    "accepted_values": ["fully_respected", "partially_respected", "disregarded"]
+  }
+}

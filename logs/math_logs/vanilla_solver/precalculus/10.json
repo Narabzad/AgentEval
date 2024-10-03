@@ -1,0 +1,13 @@
+{
+  "problem": "Find the smallest positive integer $x$ (measured in degrees) such that\n\\[\\tan (x - 160^{\\circ}) = \\frac{\\cos50^{\\circ}}{1 - \\sin50^{\\circ}}.\\]",
+  "level": "Level 5",
+  "type": "Precalculus",
+  "solution": "We can write $\\frac{\\cos 50^\\circ}{1 - \\sin 50^\\circ} = \\frac{\\sin 40^\\circ}{1 - \\cos 40^\\circ}.$  By the half-angle formula,\n\\[\\frac{\\sin 40^\\circ}{1 - \\cos 40^\\circ} = \\frac{1}{\\tan 20^\\circ} = \\tan 70^\\circ.\\]We want\n\\[\\tan (x - 160^\\circ) = \\tan 70^\\circ,\\]so $x - 160^\\circ - 70^\\circ = 180^\\circ n$ for some integer $n,$ or\n\\[x = 180^\\circ n + 230^\\circ.\\]Taking $n = -1$ to get the smallest positive value, we get $x = \\boxed{50^\\circ}.$",
+  "correct_ans": "50^\\circ",
+  "problem_id": "10",
+  "response_with_ans": "We know the half-angle identity : $\\tan(\\theta/2) = \\frac{1-\\cos\\theta}{\\sin\\theta}$ (which can be derived from the double-angle identity $\\cos \\theta = 1 - 2 \\sin^2 (\\theta/2)$).\n\nWe can rewrite the given equation as \n$$\\tan (x - 160^{\\circ}) = \\tan \\left(90^{\\circ} - \\frac{50^{\\circ}}{2}\\right),$$\nas both sides are now in the form of $\\tan y$ for some $y$, the two $y$'s must differ by a multiple of $180^\\circ$. In other words there is an integer $n$ such that\n\\begin{align*}\nx - 160^\\circ &= 90^\\circ -  25^\\circ + 180^\\circ n \\\\\nx &= 185^\\circ + 180^\\circ n \\\\\n\\end{align*}\nWe are looking for the smallest positive solution $x$, which makes $n = 0$ and hence $x = \\boxed{185}$ degrees.",
+  "time": 15.420693635940552,
+  "check_result": "the answer extracted from the reply is: 185 degrees.\n\nin comparing the reply answer with the ground truth answer, they do not match. the correct answer is 50 degrees, not 185 degrees.\n\ntherefore, \"the answer is incorrect. correct answer: 50 degrees | answer extracted: 185 degrees.\"",
+  "is_correct": false,
+  "trial": -1
+}

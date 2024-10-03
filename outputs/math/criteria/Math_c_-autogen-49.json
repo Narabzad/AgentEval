@@ -1,0 +1,22 @@
+{
+  "accuracy": {
+    "description": "The accuracy refers to the correctness of the solution or procedure provided.",
+    "accepted_values": ["very low", "low", "moderate", "high", "very high"]
+  },
+  "efficiency": {
+    "description": "Efficiency refers to how quickly and optimally the problem was solved, taking into account the steps, explanations, and time taken.",
+    "accepted_values": ["very low", "low", "moderate", "high", "very high"]
+  },
+  "clarity": {
+    "description": "Clarity refers to how well the solution was communicated, the appropriateness of the language used, and the overall ease of understanding.",
+    "accepted_values": ["very low", "low", "moderate", "high", "very high"]
+  },
+  "completeness": {
+    "description": "Completeness refers to the extent to which all aspects of the problem were addressed and whether a full solution was provided.",
+    "accepted_values": ["very low", "low", "moderate", "high", "very high"]
+  },
+  "adaptability": {
+    "description": "Adaptability refers to the ability of the solution provided to be modified and adjusted to alternative or related problems.",
+    "accepted_values": ["very low", "low", "moderate", "high", "very high"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problem": "What is the largest $n$ such that $a = 2^{306} \\cdot 3^{340}$ is a perfect $n$th power?",
+  "level": "Level 5",
+  "type": "Number Theory",
+  "solution": "We claim that $a$ is a perfect $n$th power if and only if $n$ divides both $306$ and $340$. To see this, suppose that $n \\mid 306$ and $n \\mid 340$. Then $2^{\\frac{306}{n}} 3^{\\frac{340}{n}}$ is an integer whose $n$th power is $a$. Conversely, suppose $b^n = a$. Then the only primes which divide $b$ are $2$ and $3$. Choose $c$ and $d$ so that $b=2^{c} 3^{d}$. Then $b^n = 2^{cn} 3^{dn} = 2^{306} 3^{340}$, which implies $n \\mid 306$ and $n \\mid 340$. This concludes our proof of the claim that $a$ is an $n$th power if and only if $n$ divides both $306$ and $340$.\n\nThe largest number which simultaneously divides two numbers is their GCD. Using the Euclidean algorithm, the GCD of $306$ and $340$ is the same as the GCD of $340$ and $340-306 = 34$. Since $34$ divides $340$, the GCD of these two is $34$, so the largest possible $n$ is $\\boxed{34}$.",
+  "correct_ans": "34",
+  "problem_id": "16",
+  "response_with_ans": "34",
+  "intermediate_steps": [
+    "To solve this problem, we first need to find the greatest common divisor (GCD) of the exponents 306 and 340. This GCD would represent the largest $n$ such that $a$ is a perfect $n$th power. Python's math library provides a function called gcd that can be used to find the GCD of two numbers.\nAction: Python_REPL\nAction Input: \n```python\nimport math\nmath.gcd(306, 340)\n```\n"
+  ],
+  "time": 7.080235958099365,
+  "total_token": 821,
+  "prompt_token": 697,
+  "completion_token": 124,
+  "total_cost": 0.02835,
+  "check_result": "1. the answer extracted from the reply is: \"34\".\n2. this extracted answer matches with the ground truth answer, which is \"34\".\n3. thus, \"the answer is correct.\"",
+  "is_correct": true,
+  "trial": -1
+}

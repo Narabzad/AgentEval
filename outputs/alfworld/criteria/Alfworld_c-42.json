@@ -1,0 +1,22 @@
+{
+  "task_completion": {
+    "description": "Whether the task has been completed successfully or not",
+    "accepted_values": ["successful", "partially_completed", "failed", "insolvable"]
+  },
+  "efficiency": {
+    "description": "The number of steps taken to complete the task",
+    "accepted_values": ["minimum_steps", "moderate_steps", "many_steps", "too_many_steps"]
+  },
+  "comprehensibility": {
+    "description": "How understandable and clear the thought process and actions are throughout the task",
+    "accepted_values": ["very_clear", "clear", "unclear", "very_unclear"]
+  },
+  "adaptability": {
+    "description": "The ability to adjust to the environment's feedback and change actions accordingly",
+    "accepted_values": ["highly_adaptive", "adaptive", "inflexible", "highly_inflexible"]
+  },
+  "action_validity": {
+    "description": "The validity of the actions taken during the task according to the provided available actions",
+    "accepted_values": ["all_legal", "mostly_legal", "both_legal_and_illegal", "mostly_illegal", "all_illegal"]
+  }
+}

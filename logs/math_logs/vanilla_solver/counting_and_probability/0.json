@@ -1,0 +1,13 @@
+{
+  "problem": "An envelope contains eight bills: 2 ones, 2 fives, 2 tens, and 2 twenties. Two bills are drawn at random without replacement. What is the probability that their sum is $\\$20$ or more?",
+  "level": "Level 5",
+  "type": "Counting & Probability",
+  "solution": "There are \\[\n\\binom{8}{2} = \\frac{8!}{6!\\cdot 2!} = 28\n\\]ways to choose the bills. A sum of at least $\\$20$ is obtained by choosing  both $\\$20$ bills, one of the  $\\$20$ bills and one of the six smaller bills, or both $\\$10$ bills.   Hence the probability is \\[\n\\frac{ 1 + 2\\cdot 6 + 1}{28}=\\frac{14}{28}=\\boxed{\\frac{1}{2}}.\n\\]",
+  "correct_ans": "\\frac{1}{2}",
+  "problem_id": "0",
+  "response_with_ans": "Let's first calculate the total number of ways two bills can be drawn from the envelope without replacement. This is a combination problem and can be calculated using \"8 choose 2,\" which is equal to \n\n8C2 = 8! / (2!(8-2)!) = 28.\n\nNow let's calculate the number of successful outcomes or combinations which sum up to $20 or more. There are three such successful combinations: \n\n1. Drawing two twenties: There is 1 way to do this (since there are two $20 bills).\n2. Drawing one twenty and one ten: There are 4 ways to do this (2 ways to choose the $20 bill and 2 ways to choose the $10 bill).\n3. Drawing one twenty and one five: There are 4 ways to do this (2 ways to choose the $20 bill and 2 ways to choose the $5 bill).\n\nSo the total number of successful outcomes or combinations is 1 + 4 + 4 = 9.\n\nThe probability of drawing two bills that sum up to $20 or more is the number of successful outcomes divided by the total outcomes. Thus, the required probability is\n\nP = 9 / 28, which is approximately 0.321 or 32.1%.",
+  "time": 8.813509702682495,
+  "check_result": "the answer extracted from the reply is \"p = 9 / 28, which is approximately 0.321 or 32.1%.\"\n\nthe ground truth answer is \"\\frac{1}{2}\". \n\ntherefore, the answer provided in the reply doesn't match with the ground truth answer. the answer is incorrect. correct answer: \\frac{1}{2} | answer extracted: p = 9 / 28, approximately 0.321 or 32.1%.",
+  "is_correct": false,
+  "trial": -1
+}
