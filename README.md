@@ -2,7 +2,7 @@
 
 AgentEval is a framework that enables the automatic assessment of the utility of LLM-powered applications.
 
-![AgentEval Overview](https://github.com/siqingh/agenteval_experiments/blob/main/agenteval_overview.png)
+![AgentEval Overview](https://github.com/narabzad/agenteval/blob/main/agenteval_overview.png)
 
 CriticAgent creates a set of criteria and suggested values. QuantifierAgent quantifies the criteria for a considered application, and VerifierAgent verifies the criteria based on its robustness. The output of the QuantifierAgent is a multi-dimensional task utility of the system.
 
