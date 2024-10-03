@@ -23,4 +23,7 @@ CriticAgent creates a set of criteria and suggested values. QuantifierAgent quan
     ├── agenteval_verifier_full_experiment_alfworld.ipynb          # code for running AgentEval experiment on the ALFWorld dataset
     └── agenteval_verifier_full_experiment_math.ipynb              # code for running AgentEval experiment on the Math Problems dataset
 
+# Blog Posts:
+- [How to Assess Utility of LLM-powered Applications?](https://microsoft.github.io/autogen/blog/2023/11/20/AgentEval/)
 
+- [AgentEval: A Developer Tool to Assess Utility of LLM-powered Applications](https://microsoft.github.io/autogen/blog/2024/06/21/AgentEval/)
